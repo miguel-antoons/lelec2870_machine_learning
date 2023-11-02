@@ -1,0 +1,801 @@
+age,blood pressure,blood type,cholesterol,hemoglobin,physical activity,sarsaparilla,smurfberry liquor,smurfin donuts,temperature,testosterone,weight,img_filename
+113,94.65,O+,103.63,14.32,No,Moderate,High,High,36.4,891.91,101.34,heart_509.png
+160,102.33,AB+,131.44,15.85,Yes,Very low,High,Very high,37.17,672.22,117.66,heart_159.png
+193,121.94,A+,156.47,13.02,No,Very high,Moderate,Very high,36.84,951.98,111.73,heart_502.png
+130,96.02,O+,126.46,12.91,Yes,Low,High,High,37.89,609.18,80.75,heart_947.png
+145,92.0,B+,102.23,14.72,Yes,Very low,Low,High,37.4,573.76,77.11,heart_1029.png
+171,96.71,B+,105.13,13.29,Yes,Low,Low,Low,36.6,768.15,98.18,heart_929.png
+128,90.61,A+,140.87,15.28,Yes,Low,Moderate,Very high,36.19,606.93,112.33,heart_25.png
+130,92.68,O-,95.42,13.16,Yes,Low,Low,Moderate,36.37,588.32,107.62,heart_329.png
+155,91.78,AB+,87.25,13.19,Yes,Very low,Moderate,Moderate,36.63,370.21,108.61,heart_501.png
+68,89.25,A+,116.06,13.3,Yes,Low,Moderate,High,36.61,938.07,93.56,heart_1096.png
+172,94.59,O+,40.35,13.42,No,Moderate,Moderate,Very low,36.9,685.34,93.79,heart_663.png
+89,93.3,O+,152.04,15.09,No,Very low,Low,Very high,37.11,1035.7,115.95,heart_537.png
+81,94.82,O+,109.79,14.8,Yes,Very high,Moderate,Moderate,36.51,1067.84,95.08,heart_345.png
+61,87.94,O+,136.4,14.23,Yes,Low,Very high,Very high,36.76,958.41,115.55,heart_1148.png
+80,89.94,O+,101.86,13.81,Yes,Very high,Moderate,Low,36.87,1201.9,119.98,heart_1140.png
+169,102.6,O+,161.91,14.85,Yes,Low,High,Very high,37.37,786.44,117.61,heart_449.png
+157,106.72,A+,116.7,13.12,Yes,Moderate,Moderate,High,37.48,832.35,91.03,heart_148.png
+163,90.44,A+,126.71,13.04,Yes,Very low,Very high,High,36.5,520.7,76.73,heart_254.png
+48,95.23,A+,98.46,13.66,No,Low,Low,High,36.63,332.52,93.35,heart_1046.png
+169,93.31,O-,132.74,13.83,Yes,Low,Low,High,36.92,1161.65,113.6,heart_18.png
+66,106.37,B+,141.29,14.68,Yes,Very low,High,Very high,35.96,120.8,124.29,heart_830.png
+161,80.12,A+,111.8,14.61,No,Low,Moderate,Low,36.76,524.55,117.72,heart_1146.png
+170,114.77,B+,148.12,15.81,Yes,Moderate,Very low,Very high,36.59,721.11,125.71,heart_113.png
+20,102.05,B+,117.27,14.6,Yes,Very low,Very high,High,37.55,540.49,101.36,heart_452.png
+233,115.29,A-,96.14,13.03,No,Very low,Very high,High,37.11,442.84,92.74,heart_774.png
+162,86.02,B-,82.51,12.95,No,High,Low,Very low,36.8,1061.14,104.55,heart_800.png
+131,113.69,O+,154.01,13.68,No,Moderate,Moderate,Very high,36.27,850.86,114.44,heart_199.png
+106,99.0,O-,96.3,12.07,Yes,Very low,Moderate,Moderate,36.42,843.4,96.9,heart_727.png
+181,97.73,O+,107.14,12.2,No,Low,Moderate,Moderate,36.08,685.04,103.59,heart_881.png
+27,126.6,B-,177.28,14.23,No,Moderate,High,Very high,37.28,562.2,121.55,heart_277.png
+57,80.02,A+,140.73,14.29,No,High,High,High,36.57,869.04,105.59,heart_442.png
+141,99.47,A+,116.16,12.53,No,Very low,Moderate,Moderate,36.99,619.23,90.19,heart_503.png
+100,93.81,A+,123.37,15.22,Yes,Moderate,Very low,High,37.45,902.53,118.36,heart_829.png
+42,92.02,B-,50.39,13.8,No,Low,Moderate,Moderate,36.96,652.9,99.82,heart_845.png
+69,110.56,O+,160.15,14.97,Yes,Low,High,High,36.87,698.39,120.8,heart_556.png
+118,89.05,A+,100.17,16.31,Yes,Low,High,Moderate,36.73,414.72,104.94,heart_505.png
+107,100.04,B+,132.39,15.72,No,Low,Moderate,High,36.6,551.28,107.25,heart_801.png
+57,98.11,A+,133.34,14.07,Yes,Very low,Very high,Very high,36.74,820.61,107.94,heart_507.png
+68,88.89,O+,90.7,14.13,Yes,Moderate,High,High,36.16,1116.33,91.34,heart_822.png
+47,94.82,O+,66.3,14.06,No,Very low,Moderate,Low,36.4,768.08,96.58,heart_498.png
+142,118.9,O-,131.8,14.46,No,Low,Moderate,Moderate,37.63,400.95,127.74,heart_647.png
+127,93.78,B+,85.94,14.7,No,Moderate,Moderate,Very low,37.89,976.43,87.9,heart_125.png
+181,101.93,O+,90.62,15.47,No,Low,Moderate,Moderate,37.3,864.12,98.81,heart_958.png
+155,102.78,B+,106.86,14.26,Yes,Moderate,Low,High,37.13,794.17,83.41,heart_103.png
+142,97.71,B-,122.15,12.78,Yes,Very low,Low,Very high,37.34,353.1,97.91,heart_878.png
+213,106.64,A+,150.96,14.24,No,Very low,High,Very high,36.51,482.31,113.43,heart_367.png
+106,91.86,B+,140.34,14.1,No,Low,High,High,37.55,1012.25,117.39,heart_61.png
+89,103.24,A+,113.5,14.84,No,High,High,Moderate,36.17,728.05,126.74,heart_465.png
+42,91.45,A+,100.59,13.81,No,Low,High,High,37.0,1019.08,94.08,heart_1063.png
+197,99.49,O+,93.4,15.51,No,High,Very low,Moderate,36.77,953.13,104.69,heart_999.png
+143,88.48,O+,125.43,15.7,No,High,Moderate,Very high,37.69,930.86,97.18,heart_872.png
+125,98.41,AB-,69.32,14.18,Yes,Low,Moderate,Low,36.81,974.73,99.5,heart_852.png
+60,97.48,A+,75.76,14.75,No,Very high,Low,Very low,37.14,1344.52,110.05,heart_184.png
+124,100.6,AB-,94.81,12.85,Yes,Low,Very low,Low,37.37,1255.61,81.34,heart_1078.png
+113,89.41,O+,116.41,14.35,Yes,Low,Moderate,Low,37.1,870.99,101.37,heart_921.png
+79,88.32,AB-,99.92,16.34,No,Very high,High,Moderate,37.03,1243.41,96.05,heart_389.png
+107,110.0,A+,155.37,15.4,No,Low,Low,Very high,36.82,628.82,115.89,heart_695.png
+109,101.79,B-,77.89,13.98,Yes,High,Low,Very low,37.87,1106.23,102.85,heart_926.png
+113,100.38,B+,129.29,14.63,No,Low,High,Very high,37.89,854.52,117.24,heart_662.png
+178,102.15,A-,64.66,13.91,Yes,Low,High,Low,37.16,605.99,86.78,heart_149.png
+140,81.98,A+,113.69,14.2,Yes,Moderate,Moderate,High,36.26,864.42,97.88,heart_971.png
+108,94.98,A+,154.43,15.62,Yes,Very low,Moderate,Very high,37.48,584.56,115.94,heart_582.png
+127,92.21,O-,79.77,14.37,Yes,Low,Moderate,Low,37.56,630.83,73.85,heart_306.png
+79,102.22,O+,140.53,15.78,Yes,Very low,Low,Moderate,37.57,763.79,128.61,heart_1015.png
+152,100.62,AB-,110.93,14.54,Yes,Very low,Low,Very high,37.56,607.85,92.37,heart_177.png
+208,112.82,O+,132.05,14.95,Yes,Very low,Very high,High,36.78,514.85,105.82,heart_164.png
+94,87.01,O+,82.93,14.43,No,Low,Moderate,Very low,37.0,555.51,96.02,heart_82.png
+198,106.99,B+,115.35,15.4,No,Very low,Moderate,High,37.28,647.96,106.71,heart_1179.png
+132,95.35,A+,101.76,13.94,Yes,Low,Very low,Low,37.31,761.83,120.49,heart_1081.png
+125,90.51,AB-,110.79,14.87,No,Low,High,Moderate,37.17,588.1,116.37,heart_792.png
+202,93.3,A+,89.82,14.39,No,Very high,Moderate,Moderate,36.51,560.83,100.16,heart_899.png
+155,94.64,A-,71.61,16.29,Yes,Low,Very low,Low,37.06,852.33,92.15,heart_632.png
+128,93.89,O+,102.25,13.55,Yes,Low,Moderate,Moderate,36.21,848.51,86.79,heart_1144.png
+122,90.74,O+,113.29,14.16,Yes,Moderate,High,High,36.57,1363.85,98.56,heart_941.png
+143,105.64,B+,161.84,14.7,No,High,Very low,Very high,36.84,724.94,116.74,heart_807.png
+100,80.53,AB-,71.7,14.22,No,Very high,High,Very low,37.66,1307.69,105.69,heart_8.png
+217,124.88,A+,168.38,14.16,No,Low,Low,Very high,37.32,330.84,128.91,heart_45.png
+113,92.94,A+,103.14,14.7,No,Low,Very high,Moderate,37.12,866.11,84.82,heart_513.png
+220,127.54,A+,116.37,15.74,No,Very low,Very high,Very high,37.57,401.96,104.47,heart_779.png
+139,97.4,B-,103.52,15.09,Yes,Low,Moderate,High,36.76,1301.32,101.86,heart_140.png
+179,98.17,O-,131.33,14.9,No,Moderate,Low,Very high,35.75,798.1,107.38,heart_693.png
+141,91.02,B+,113.43,15.53,No,Low,Moderate,High,36.69,896.28,102.84,heart_440.png
+148,93.9,O+,99.69,14.38,No,Low,Moderate,Low,36.76,937.54,103.14,heart_1053.png
+116,105.77,A+,90.49,14.03,Yes,Low,Very high,Moderate,36.83,1168.51,107.65,heart_1059.png
+20,96.81,O+,90.84,13.54,No,Low,Low,Moderate,37.74,570.2,112.12,heart_524.png
+114,89.89,B+,89.79,13.74,Yes,Moderate,High,Moderate,36.86,853.8,91.0,heart_94.png
+194,130.42,O-,160.73,15.24,No,Low,Very low,Very high,36.46,434.3,132.12,heart_1045.png
+139,95.34,A+,101.15,13.89,Yes,Low,Moderate,High,37.17,543.55,79.35,heart_11.png
+121,87.16,O-,47.25,14.69,No,Low,Moderate,Very low,36.37,809.45,102.05,heart_309.png
+155,100.79,O+,72.8,13.3,Yes,Low,High,Moderate,37.0,668.56,89.54,heart_208.png
+73,97.85,O+,62.22,14.74,Yes,High,Moderate,Very low,37.51,699.41,91.25,heart_867.png
+212,120.97,O+,150.71,13.76,No,Low,Moderate,Very high,37.5,630.59,114.59,heart_615.png
+20,92.47,AB-,131.54,13.58,Yes,Very low,High,Very high,36.5,956.44,98.51,heart_606.png
+153,106.13,O+,84.68,13.6,Yes,Low,Moderate,Moderate,37.69,448.9,80.63,heart_1061.png
+94,90.84,O+,122.07,13.52,No,Low,Low,Very high,38.27,566.76,109.89,heart_937.png
+166,97.36,A+,106.25,14.84,Yes,Low,High,Moderate,38.04,941.46,81.85,heart_257.png
+182,103.11,O+,131.78,13.99,Yes,Low,Moderate,Very high,37.02,528.79,114.52,heart_596.png
+106,99.89,B+,123.91,14.79,No,Very low,Very high,High,37.39,610.98,122.8,heart_751.png
+222,112.99,A+,82.85,13.11,No,Low,High,Moderate,37.3,264.44,110.23,heart_948.png
+126,89.16,A+,96.95,13.76,Yes,Low,High,Low,36.96,877.26,96.65,heart_599.png
+202,101.96,A+,102.64,15.05,No,Moderate,Low,High,37.05,471.22,111.6,heart_210.png
+82,86.63,AB+,108.16,14.66,Yes,Low,Low,Moderate,36.66,699.32,93.57,heart_1034.png
+148,103.79,A+,108.18,15.14,Yes,Very low,Very high,Moderate,36.89,762.23,103.96,heart_848.png
+162,102.2,A-,82.78,13.81,Yes,Moderate,Very high,Moderate,37.65,850.42,84.6,heart_1031.png
+97,102.17,B+,133.98,15.74,Yes,Very low,Low,Very high,37.25,587.23,114.5,heart_403.png
+136,92.99,B-,91.15,12.86,Yes,Low,High,Moderate,36.99,817.43,103.94,heart_462.png
+62,94.4,B-,127.67,13.81,Yes,Very low,High,High,37.42,588.73,82.34,heart_411.png
+117,97.56,B-,62.56,12.87,No,Very high,Moderate,Very low,36.99,1048.75,111.61,heart_269.png
+136,84.02,O+,109.82,14.53,Yes,Low,Very high,Moderate,36.47,304.42,96.07,heart_320.png
+85,83.46,A-,132.88,15.03,Yes,High,Moderate,High,36.13,542.47,106.83,heart_871.png
+150,84.86,A+,106.46,14.88,Yes,Low,Moderate,High,36.63,1079.37,102.98,heart_1178.png
+146,101.93,O+,139.06,12.96,No,Moderate,Very high,Very high,36.57,836.1,102.96,heart_815.png
+137,96.4,A+,116.65,13.27,No,Low,High,High,36.09,682.5,109.47,heart_163.png
+94,97.41,A+,55.42,14.32,No,High,High,Very low,36.58,1120.01,93.38,heart_133.png
+84,92.85,A+,87.12,14.3,Yes,Low,Very high,Moderate,37.21,919.46,98.93,heart_52.png
+114,97.03,B+,80.1,14.53,Yes,Low,Moderate,Low,35.81,621.35,103.92,heart_1027.png
+241,112.56,O-,122.27,14.41,No,Low,Low,Low,37.14,221.81,138.95,heart_1104.png
+144,91.47,O+,139.48,14.84,Yes,Moderate,High,Very high,36.52,1284.24,107.47,heart_488.png
+71,96.42,A+,126.48,14.91,Yes,Low,Low,Very high,37.16,907.1,106.4,heart_636.png
+119,88.73,O+,113.07,15.23,Yes,Very low,High,Very high,37.5,564.3,104.04,heart_1175.png
+64,80.79,A+,96.49,14.92,Yes,Low,Low,Low,36.64,928.82,82.42,heart_573.png
+218,117.41,O+,110.85,14.59,Yes,Low,Moderate,High,37.45,486.62,98.71,heart_284.png
+34,82.78,O+,75.83,13.15,No,Very high,Low,Very low,37.19,1277.81,82.88,heart_597.png
+111,111.49,A+,168.5,15.21,No,Low,High,Very high,37.36,465.72,119.29,heart_176.png
+131,91.34,A+,112.91,13.19,No,Very low,Very high,High,37.53,555.84,101.16,heart_955.png
+76,100.59,A-,140.06,13.85,No,Low,Low,Very high,37.29,940.84,110.1,heart_348.png
+151,106.73,B-,145.16,13.27,No,Low,Very low,High,37.5,567.13,120.66,heart_759.png
+149,93.62,O+,105.77,16.93,Yes,Very low,Moderate,Moderate,37.23,671.36,93.41,heart_93.png
+85,88.55,A+,143.94,13.38,Yes,Low,Very low,Very high,38.05,736.69,83.29,heart_259.png
+144,93.09,B+,116.52,13.93,No,Low,Low,Very high,36.48,701.32,92.3,heart_628.png
+86,70.15,O-,73.5,14.38,No,Very high,Moderate,Very low,37.13,833.16,94.45,heart_415.png
+174,101.32,O+,124.09,14.09,Yes,Moderate,High,Very high,37.13,623.96,99.87,heart_241.png
+115,94.68,AB+,130.71,12.7,No,Very low,Moderate,Very high,36.2,645.35,113.61,heart_489.png
+154,98.37,A+,88.87,14.94,Yes,Moderate,Very high,Low,36.55,740.24,88.59,heart_739.png
+31,107.91,O+,144.74,14.4,No,Very low,Moderate,High,37.28,712.85,116.5,heart_499.png
+167,110.97,O+,111.87,13.96,Yes,High,Moderate,Low,37.51,906.63,99.19,heart_843.png
+242,110.7,O+,116.64,14.38,Yes,Very low,Moderate,Moderate,37.64,391.73,94.04,heart_204.png
+161,96.77,A-,121.39,13.26,No,Very low,Moderate,Very high,36.82,632.36,87.86,heart_675.png
+103,112.38,AB-,79.57,13.82,Yes,Very low,Very high,Moderate,36.88,286.13,96.39,heart_263.png
+20,91.56,A-,81.84,12.78,Yes,High,Moderate,Moderate,37.34,970.72,102.31,heart_570.png
+167,97.74,A+,57.93,14.46,No,High,Moderate,Very low,37.74,1046.92,87.99,heart_410.png
+91,89.79,A+,80.94,14.6,No,High,Low,Very low,36.92,771.11,103.03,heart_1033.png
+160,128.76,A+,180.07,13.08,No,Low,Very high,Very high,36.19,644.51,137.6,heart_560.png
+216,105.52,A+,64.45,17.12,Yes,Low,Moderate,Very low,36.19,358.78,92.7,heart_341.png
+115,88.03,O+,94.83,15.23,No,High,Low,Low,35.8,607.48,99.79,heart_626.png
+43,91.35,B+,108.8,14.51,Yes,Very low,Moderate,Very high,36.92,559.33,90.55,heart_587.png
+181,100.77,O+,122.35,13.68,Yes,Very low,Very low,High,38.19,515.69,111.43,heart_1194.png
+183,103.52,AB+,113.71,14.19,No,Low,Moderate,Moderate,37.08,620.68,107.79,heart_374.png
+120,91.97,A+,100.56,15.07,No,Moderate,Moderate,High,37.0,729.76,99.02,heart_419.png
+248,112.2,O+,119.34,15.19,No,Very low,Moderate,Very high,37.25,524.94,95.62,heart_105.png
+84,90.3,O+,76.07,12.82,Yes,Very low,Low,Moderate,36.86,637.22,91.36,heart_308.png
+188,103.9,A+,99.6,14.07,No,Low,High,Low,36.49,550.95,107.31,heart_33.png
+111,95.36,O-,97.65,13.28,Yes,Moderate,Very low,High,36.82,1053.38,86.9,heart_44.png
+126,97.26,B+,117.65,14.48,Yes,Low,Very high,High,36.73,510.7,112.69,heart_296.png
+196,130.68,A+,172.83,15.12,Yes,Very low,High,High,36.67,164.44,124.24,heart_334.png
+130,90.62,A+,67.39,12.21,No,Moderate,High,Low,36.99,724.77,81.95,heart_167.png
+249,178.31,A+,175.42,15.17,No,Very low,Moderate,Very high,37.14,261.82,132.7,heart_793.png
+144,97.61,B+,88.53,14.71,Yes,Low,Very high,Moderate,36.59,696.06,100.9,heart_634.png
+125,99.65,A+,107.26,15.33,No,Very low,Moderate,Moderate,36.63,356.03,102.74,heart_837.png
+143,92.29,A+,117.92,14.34,No,Low,Moderate,High,37.31,606.26,119.8,heart_17.png
+185,124.44,O+,168.0,13.36,No,Very low,Moderate,High,36.95,660.22,132.0,heart_835.png
+86,93.9,A+,76.29,13.49,Yes,Low,High,Very low,36.76,840.56,94.41,heart_256.png
+147,85.54,O+,106.16,14.22,Yes,Low,Moderate,Moderate,36.4,1209.57,91.69,heart_51.png
+134,88.84,O+,132.22,13.97,Yes,Very low,Moderate,Very high,36.64,747.72,107.01,heart_919.png
+155,90.06,O+,85.94,12.71,Yes,Moderate,High,High,37.19,424.42,97.12,heart_450.png
+115,88.7,A-,141.43,14.8,Yes,Very high,Moderate,High,37.15,841.4,90.41,heart_990.png
+149,89.68,A+,131.37,13.82,Yes,Low,Low,Very high,37.29,849.03,96.18,heart_197.png
+164,103.85,B-,136.75,14.82,No,Very low,Low,Very high,36.83,533.9,110.01,heart_380.png
+166,100.25,O-,99.28,13.82,Yes,Low,Moderate,High,36.54,712.15,86.08,heart_43.png
+64,94.52,A+,112.43,13.65,No,Very low,Moderate,Moderate,37.68,415.34,93.5,heart_535.png
+74,94.09,A+,91.16,14.47,No,Very low,High,Moderate,37.34,737.4,104.1,heart_665.png
+194,118.25,A+,140.31,13.76,Yes,Very low,Low,Very high,37.54,333.33,125.51,heart_957.png
+188,92.67,A+,78.1,13.91,No,Moderate,High,Moderate,37.55,537.78,95.82,heart_936.png
+172,88.71,AB-,91.39,12.81,Yes,Very high,Low,Low,37.55,783.72,88.35,heart_625.png
+177,114.86,A+,105.18,12.88,Yes,Low,Very high,High,37.17,584.49,110.09,heart_435.png
+109,92.69,O-,50.6,14.36,Yes,Low,High,Very low,36.75,767.42,97.63,heart_154.png
+190,103.88,A+,109.84,12.64,No,Low,High,High,37.33,827.67,111.87,heart_918.png
+77,92.28,A-,125.28,12.65,Yes,Low,High,Very high,36.31,1058.89,96.38,heart_262.png
+34,80.25,A-,58.5,14.17,No,Very high,Low,Very low,36.6,1034.18,100.03,heart_412.png
+144,99.12,A+,122.32,15.18,No,Low,Moderate,Very high,36.45,562.92,101.37,heart_137.png
+110,94.89,O+,97.66,15.17,Yes,Low,High,Moderate,36.92,896.46,92.37,heart_130.png
+176,129.5,O+,152.47,13.62,No,Very low,Moderate,Very high,36.24,459.97,125.18,heart_672.png
+196,107.86,O-,120.84,13.78,No,Moderate,Moderate,High,36.96,764.65,116.59,heart_547.png
+38,85.17,A+,129.13,14.1,Yes,High,High,Very high,36.32,492.92,93.68,heart_455.png
+160,97.9,B+,116.3,14.74,No,Low,Very low,Moderate,36.94,825.9,117.73,heart_495.png
+152,98.48,A+,127.19,12.97,No,Very low,Moderate,High,35.92,659.71,92.68,heart_531.png
+158,101.3,O+,106.53,15.27,Yes,Low,High,High,36.57,715.32,80.24,heart_487.png
+219,107.31,AB+,100.7,13.54,Yes,Moderate,Low,High,36.76,266.8,87.5,heart_752.png
+243,124.05,O+,109.43,13.55,Yes,Very low,High,High,36.88,494.39,104.6,heart_274.png
+129,95.06,O+,107.75,13.67,Yes,Very low,Very high,High,37.17,703.35,104.75,heart_168.png
+267,111.69,O+,83.39,14.34,No,High,High,Low,36.77,428.81,97.66,heart_883.png
+162,94.81,A+,56.76,15.58,No,Moderate,Moderate,Low,37.16,753.32,90.12,heart_888.png
+173,99.42,B+,114.8,14.58,Yes,Very low,Low,Very high,37.1,969.24,93.14,heart_253.png
+121,76.66,O-,75.23,14.51,Yes,Very high,Moderate,Very low,36.95,1282.37,77.08,heart_1166.png
+174,138.16,O-,166.41,13.17,No,Very low,Moderate,Very high,37.42,859.71,113.15,heart_581.png
+99,94.59,B+,139.26,14.86,No,Moderate,Moderate,Very high,37.21,864.2,102.57,heart_244.png
+68,93.98,O-,120.34,14.78,Yes,Low,Moderate,Very high,37.45,649.72,96.84,heart_1013.png
+198,114.95,O+,96.52,14.94,Yes,Very low,High,High,37.71,253.03,92.07,heart_1014.png
+56,89.1,A+,111.28,14.67,No,Low,Low,Very high,37.09,604.2,108.45,heart_1171.png
+38,103.06,O+,119.27,15.04,Yes,Very low,Very high,Moderate,36.27,645.01,114.64,heart_1043.png
+48,92.81,A-,101.05,15.25,No,Low,Moderate,Moderate,37.56,722.71,105.94,heart_904.png
+79,93.4,O-,104.9,15.58,Yes,Moderate,Moderate,High,37.4,841.39,98.15,heart_1154.png
+277,126.37,O+,125.14,13.34,No,Low,High,High,36.63,478.24,114.89,heart_1184.png
+176,94.92,O+,81.83,12.71,No,Moderate,Very high,Moderate,37.37,725.95,95.98,heart_651.png
+37,70.24,O-,74.48,14.02,Yes,Very high,High,Low,37.53,1552.5,97.21,heart_944.png
+124,91.6,O+,114.82,14.82,No,Low,Moderate,High,36.58,650.41,92.23,heart_709.png
+180,95.01,A+,82.49,14.4,Yes,Very high,Moderate,Very low,37.41,792.76,76.87,heart_264.png
+82,97.0,O+,137.1,15.2,Yes,Low,Very high,High,37.61,559.84,86.37,heart_652.png
+107,90.13,A+,128.93,14.51,Yes,Low,Moderate,High,36.92,766.39,97.44,heart_205.png
+69,92.1,O+,166.59,14.31,Yes,Moderate,Very high,Very high,37.52,896.9,113.53,heart_461.png
+127,90.76,B+,123.58,14.56,Yes,Moderate,Very low,High,37.24,962.07,100.47,heart_746.png
+213,115.1,O+,96.18,12.47,Yes,Very high,Moderate,Low,38.02,954.71,112.04,heart_640.png
+143,95.23,O+,133.59,13.83,No,Low,Very low,Very high,37.74,382.52,96.45,heart_638.png
+60,96.06,O-,123.46,14.13,Yes,Moderate,High,Very high,37.81,844.77,91.17,heart_657.png
+71,93.21,A-,105.61,15.54,Yes,Very low,Moderate,High,37.28,743.9,97.13,heart_152.png
+163,97.24,A-,106.55,13.17,Yes,Low,Moderate,High,35.99,674.15,94.28,heart_589.png
+146,89.74,A+,79.47,14.47,No,Moderate,Very low,Low,35.81,905.07,104.28,heart_1009.png
+184,102.06,A+,142.04,13.89,Yes,High,Moderate,Very high,35.88,559.65,99.27,heart_101.png
+123,100.24,A+,135.15,12.74,Yes,Low,Low,High,35.97,638.3,109.04,heart_327.png
+214,124.89,O+,103.96,14.58,No,Very low,Very high,Very high,36.49,351.83,89.19,heart_553.png
+139,93.17,A+,105.78,13.65,Yes,Low,Low,High,37.31,810.81,87.6,heart_155.png
+75,85.64,A-,104.06,16.07,No,High,Moderate,Very high,37.34,785.08,110.24,heart_1122.png
+180,87.7,B+,75.6,13.25,No,Very high,High,Very low,36.18,1107.06,103.8,heart_1117.png
+67,95.54,A-,84.1,12.31,Yes,Low,Very high,Moderate,36.84,445.02,81.63,heart_1090.png
+123,90.62,O+,118.94,11.26,No,Very low,Moderate,High,36.98,868.74,105.27,heart_225.png
+260,130.65,A+,158.48,14.84,Yes,Very low,High,Very high,35.97,223.84,115.14,heart_720.png
+258,124.28,O+,153.58,13.43,No,Very low,Low,Very high,37.47,50.0,127.18,heart_561.png
+133,90.71,A+,101.72,14.54,Yes,Moderate,Very high,Moderate,36.54,1128.03,58.26,heart_591.png
+61,100.1,A+,106.73,12.15,Yes,Low,Very low,Moderate,36.37,343.45,109.34,heart_891.png
+165,91.65,B+,118.85,14.64,No,Low,High,Moderate,36.17,693.72,121.81,heart_1095.png
+98,98.17,O+,128.63,12.16,Yes,Very low,Very high,High,37.05,1062.31,110.23,heart_310.png
+121,83.97,A-,67.73,15.05,Yes,High,Low,Low,36.94,1108.58,106.95,heart_1040.png
+141,119.29,O+,159.85,14.03,No,Low,Low,Very high,36.66,773.59,123.23,heart_31.png
+62,87.9,O+,65.21,14.26,Yes,Very high,Very low,Very low,37.68,1197.17,113.11,heart_1051.png
+108,102.34,AB+,96.37,14.71,Yes,Moderate,Moderate,Moderate,37.13,438.3,99.6,heart_126.png
+247,113.88,B+,91.95,15.09,No,Low,Moderate,Very low,36.92,426.94,110.72,heart_585.png
+125,100.48,AB+,170.0,13.13,No,Low,Low,Very high,36.35,561.93,108.62,heart_78.png
+76,149.24,AB+,180.73,14.25,No,Low,Very high,Very high,37.81,1122.56,116.07,heart_229.png
+104,90.58,O+,145.77,14.51,No,Low,Moderate,Very high,36.71,681.5,112.65,heart_557.png
+119,111.7,O+,128.98,11.96,No,Very low,Very high,High,36.21,838.44,113.77,heart_323.png
+182,101.88,B+,121.9,15.94,No,Very low,Moderate,Very high,37.72,437.35,103.26,heart_621.png
+129,87.37,O+,104.06,15.66,Yes,Low,High,High,37.39,935.7,93.25,heart_749.png
+114,100.04,A+,72.48,14.4,No,Moderate,Very high,Very low,37.21,975.27,90.1,heart_387.png
+135,100.93,A+,103.23,13.18,No,Low,Moderate,High,37.36,846.16,103.56,heart_784.png
+191,113.57,O+,125.85,12.58,No,Low,Very low,Moderate,37.57,88.03,129.17,heart_273.png
+123,91.54,O+,90.65,14.68,Yes,Low,Moderate,Moderate,37.36,612.36,97.05,heart_358.png
+166,101.11,A+,75.32,13.88,Yes,Moderate,High,Low,36.88,528.97,101.77,heart_603.png
+174,95.73,O+,117.29,14.18,Yes,Very low,Moderate,Very high,36.16,442.86,85.1,heart_853.png
+138,100.02,A+,128.15,15.03,No,Low,High,Moderate,37.55,655.75,107.93,heart_1057.png
+199,126.74,O+,149.21,14.06,No,Low,Moderate,Very high,36.4,421.66,114.11,heart_543.png
+151,98.53,A+,135.81,14.49,No,Very low,Moderate,Very high,37.68,1127.34,102.41,heart_1088.png
+142,96.71,O+,96.42,13.91,No,Very low,Moderate,Moderate,35.91,606.3,100.73,heart_139.png
+74,94.53,O+,90.57,14.38,Yes,Low,Very high,Moderate,36.52,1042.23,87.65,heart_316.png
+135,96.16,O+,89.84,16.19,Yes,Very low,Low,Moderate,37.11,591.47,77.6,heart_504.png
+81,88.22,O-,87.98,12.47,Yes,Low,High,Moderate,38.55,651.31,71.17,heart_818.png
+87,106.14,A+,140.29,14.69,No,Low,Very high,Very high,37.19,1069.08,119.58,heart_723.png
+268,123.08,A+,95.35,13.51,Yes,Low,Moderate,Moderate,36.82,849.84,101.76,heart_813.png
+100,103.65,A+,99.26,14.02,Yes,Low,Low,Moderate,36.55,466.5,99.58,heart_846.png
+117,101.28,A+,147.09,14.36,Yes,Low,Moderate,Very high,37.38,523.86,92.94,heart_236.png
+154,94.99,A+,111.85,15.13,Yes,Very low,Moderate,Very high,37.03,528.36,86.65,heart_1153.png
+164,106.4,A+,107.14,12.88,No,Low,Very high,Low,37.27,1013.63,110.76,heart_854.png
+82,93.72,O+,76.45,15.11,Yes,Low,High,Low,36.98,903.81,77.14,heart_97.png
+77,117.32,A+,146.21,14.77,No,Moderate,Moderate,Moderate,37.14,775.89,135.44,heart_111.png
+210,113.04,A+,108.1,11.92,Yes,Low,High,Moderate,37.33,472.56,91.71,heart_1039.png
+188,117.39,A-,135.52,15.05,No,Very low,Moderate,Very high,36.54,429.27,103.06,heart_1198.png
+88,82.06,A-,68.98,11.64,No,Moderate,High,Low,36.31,974.95,101.36,heart_951.png
+113,99.86,AB+,100.96,12.99,No,Very low,Very high,Moderate,37.65,563.09,118.31,heart_858.png
+93,103.25,AB+,152.38,13.17,Yes,Very low,Moderate,High,37.32,194.48,125.88,heart_27.png
+234,105.23,O+,130.98,13.49,No,Low,Low,Very high,36.52,744.58,94.63,heart_1118.png
+145,91.17,O+,90.85,13.09,Yes,Very high,Low,Moderate,36.37,1028.55,103.28,heart_109.png
+35,97.18,AB-,87.22,14.85,No,Very low,Very low,Moderate,36.46,959.99,90.72,heart_22.png
+44,90.39,A+,115.69,14.46,No,Low,Low,High,37.4,597.58,87.7,heart_89.png
+195,106.2,A+,101.99,16.5,No,Very low,Moderate,High,36.91,408.38,93.05,heart_1018.png
+109,86.98,B+,84.07,13.68,No,Moderate,Moderate,Very low,36.91,785.73,111.62,heart_539.png
+170,94.85,O+,97.33,13.94,No,Low,Moderate,High,37.29,475.54,105.1,heart_28.png
+130,92.08,O+,110.93,12.51,Yes,Low,High,Very high,36.76,734.38,88.28,heart_984.png
+235,122.87,O-,142.83,12.54,Yes,Low,Moderate,Very high,36.19,147.51,110.91,heart_134.png
+123,103.59,A+,82.91,12.58,Yes,Low,Very high,Moderate,37.09,759.15,74.74,heart_128.png
+173,105.16,O+,132.8,14.38,No,Very low,High,Very high,36.92,667.36,113.39,heart_996.png
+146,82.12,A+,89.71,13.55,Yes,Moderate,High,Moderate,36.7,864.74,103.23,heart_620.png
+138,88.94,A+,116.08,13.82,Yes,Low,Low,Very high,37.25,658.17,90.85,heart_540.png
+115,87.3,O+,109.28,13.99,No,High,Moderate,High,37.02,738.95,93.49,heart_994.png
+215,109.48,B+,76.8,14.55,Yes,Very low,High,Low,36.96,248.28,87.46,heart_1068.png
+186,110.88,A+,108.4,13.74,No,Low,Low,Moderate,36.47,393.12,128.98,heart_189.png
+176,104.97,A+,123.23,13.35,Yes,Very low,Moderate,Very high,37.12,365.88,92.59,heart_226.png
+126,95.75,A+,111.32,13.0,No,Low,Very high,Moderate,37.52,774.48,99.94,heart_150.png
+133,81.23,O+,124.1,14.75,Yes,Moderate,High,High,37.53,704.28,101.89,heart_747.png
+68,89.83,O+,47.74,12.41,Yes,Moderate,Moderate,Very low,37.21,1161.02,90.84,heart_1025.png
+129,84.05,AB-,90.62,14.54,No,Very high,Moderate,Low,37.43,1205.49,89.58,heart_63.png
+51,93.8,A+,90.85,13.02,Yes,Moderate,Very high,Moderate,36.3,631.86,88.29,heart_460.png
+137,82.77,A-,90.23,14.58,Yes,High,Very high,Moderate,37.9,1112.93,86.6,heart_429.png
+143,105.9,O+,114.87,14.85,Yes,Low,Very high,Very high,37.16,671.01,92.11,heart_1111.png
+241,108.11,A+,84.17,15.04,No,High,High,Very low,37.06,578.11,95.93,heart_860.png
+119,92.46,O+,94.41,12.92,Yes,Very high,Low,Moderate,36.89,1104.29,101.69,heart_1049.png
+101,103.65,O-,142.31,14.12,Yes,Very low,Very high,Very high,36.93,561.4,111.5,heart_811.png
+116,103.81,O+,145.89,15.05,Yes,Low,Moderate,Very high,37.18,1165.3,106.12,heart_212.png
+194,115.55,O+,144.1,14.55,No,Very low,Moderate,High,36.99,281.27,104.08,heart_322.png
+169,97.42,A+,109.46,14.53,No,Very low,High,Moderate,37.21,783.32,95.11,heart_614.png
+142,86.13,B+,67.2,14.67,Yes,High,High,Very low,37.19,1152.26,76.46,heart_278.png
+120,95.08,O+,133.36,13.31,Yes,Low,High,High,37.29,762.03,89.89,heart_896.png
+115,92.95,O+,88.1,14.74,Yes,Very low,Very low,Moderate,37.01,570.38,91.54,heart_912.png
+20,100.55,O+,136.27,13.71,Yes,Very low,Moderate,Very high,36.54,312.21,125.65,heart_179.png
+95,117.86,O+,155.63,13.73,No,Moderate,Very high,Very high,36.49,1128.78,119.14,heart_466.png
+109,79.35,O+,125.62,15.37,No,High,High,High,37.31,916.77,105.87,heart_840.png
+100,91.51,AB-,97.58,13.82,Yes,Very low,High,High,37.3,825.17,101.91,heart_1189.png
+93,99.22,O+,70.87,13.98,No,Very low,High,Low,37.44,346.09,95.53,heart_86.png
+119,89.96,O-,101.8,15.66,No,Moderate,Very high,Very high,37.22,677.52,85.83,heart_755.png
+89,92.12,O+,155.28,14.41,Yes,Low,Low,Very high,36.74,514.32,147.13,heart_1143.png
+83,96.77,A+,99.35,12.67,No,Low,Very high,High,37.62,473.62,110.14,heart_870.png
+101,97.1,O-,126.45,15.1,No,Very high,High,High,36.05,967.04,90.18,heart_1174.png
+135,95.34,AB-,80.26,14.37,No,High,Low,Low,37.74,1043.1,105.78,heart_493.png
+140,88.56,A+,113.26,13.81,Yes,Low,Very low,High,36.97,778.86,66.46,heart_381.png
+66,111.09,O-,158.43,14.68,No,Very low,High,Very high,36.73,749.84,114.37,heart_786.png
+74,88.5,O+,84.07,13.08,No,High,Moderate,Moderate,36.86,780.81,106.75,heart_222.png
+41,87.07,O+,99.42,13.74,Yes,Low,Low,High,36.84,611.27,108.58,heart_1135.png
+117,94.02,A+,94.9,12.5,Yes,Very low,Moderate,High,37.67,348.54,93.14,heart_69.png
+202,73.34,A+,105.06,13.88,No,Very high,Low,Moderate,36.59,915.33,116.95,heart_363.png
+134,93.63,A+,88.54,13.91,No,Very low,High,Moderate,36.99,929.61,109.76,heart_911.png
+105,95.83,A+,132.4,12.36,Yes,Low,High,Very high,36.86,751.39,101.91,heart_1072.png
+72,93.11,O+,105.84,15.53,No,High,Very high,Low,37.52,989.2,114.05,heart_584.png
+98,98.4,AB+,116.58,12.8,Yes,Low,Moderate,Very high,37.43,704.83,106.54,heart_407.png
+220,113.11,B+,129.44,14.09,No,Moderate,Moderate,Very high,37.13,751.08,109.36,heart_397.png
+139,96.4,O+,119.52,13.11,No,Low,Moderate,High,37.77,985.65,110.28,heart_734.png
+96,109.8,A+,131.79,13.81,Yes,Very low,Moderate,Very high,37.62,953.67,89.68,heart_745.png
+132,78.46,A+,78.9,14.11,Yes,Very high,Low,Low,37.1,476.56,109.73,heart_777.png
+166,97.31,A+,92.79,14.14,No,Very low,Moderate,High,38.29,618.86,98.58,heart_641.png
+143,97.79,O-,114.87,13.83,Yes,Low,Moderate,Very high,36.36,599.69,103.93,heart_959.png
+118,93.4,A+,61.81,15.77,Yes,Moderate,Moderate,Very low,36.28,805.81,81.93,heart_124.png
+86,95.21,O+,92.64,15.91,No,Low,Low,Moderate,37.01,615.89,99.68,heart_286.png
+94,85.63,O-,78.45,14.9,Yes,Low,High,Low,36.58,624.19,64.14,heart_1052.png
+37,100.48,O-,163.67,14.03,No,Very low,High,Very high,37.23,577.37,117.05,heart_413.png
+107,87.67,O+,98.85,12.79,Yes,Very high,Moderate,Low,36.97,1175.99,92.34,heart_868.png
+52,88.07,A+,118.21,13.54,Yes,High,Low,High,37.51,1172.03,78.71,heart_1021.png
+111,100.55,A+,97.54,15.77,Yes,Very low,Very high,Moderate,37.19,847.99,96.18,heart_604.png
+133,86.04,A+,92.06,13.02,No,Low,Moderate,Moderate,37.12,783.26,99.58,heart_659.png
+188,102.93,A+,100.62,13.66,No,Moderate,High,Moderate,37.41,667.07,98.26,heart_532.png
+151,90.0,A+,103.31,15.4,No,Moderate,High,High,36.96,916.78,104.32,heart_1155.png
+118,83.24,AB-,139.51,14.83,No,Low,Moderate,Very high,37.19,769.13,112.46,heart_243.png
+79,90.37,AB-,121.78,13.99,No,Very low,Low,Very high,36.44,735.46,102.35,heart_642.png
+181,103.26,B+,80.9,15.2,No,Low,Low,Low,37.39,408.87,109.46,heart_428.png
+167,110.73,A+,112.06,14.18,Yes,Very low,Moderate,High,36.31,649.76,78.08,heart_250.png
+88,93.07,A+,107.45,12.93,Yes,Very low,Very high,High,37.39,569.32,109.66,heart_917.png
+195,107.53,B+,97.07,14.96,No,Moderate,High,High,36.77,357.2,97.76,heart_50.png
+75,95.49,O+,63.39,12.68,Yes,Very low,Moderate,Low,37.95,570.54,80.04,heart_526.png
+89,91.14,O+,123.02,14.18,Yes,Very low,Moderate,Very high,37.32,829.14,101.23,heart_362.png
+111,93.59,B-,123.2,13.34,No,Low,High,Moderate,37.27,682.86,113.85,heart_857.png
+108,86.39,B+,125.22,14.47,No,Low,Moderate,Very high,36.93,885.44,94.68,heart_431.png
+166,92.94,A+,121.56,13.97,Yes,Moderate,Moderate,High,37.45,880.61,91.2,heart_890.png
+173,84.88,O+,102.24,14.7,Yes,Low,High,Moderate,37.55,701.0,81.51,heart_23.png
+99,94.13,AB-,79.48,15.47,No,High,High,Moderate,36.79,1002.75,108.42,heart_448.png
+32,95.19,A-,108.76,16.02,Yes,Moderate,High,Very high,37.31,1094.3,87.79,heart_0.png
+44,97.2,B-,123.95,15.11,Yes,Very low,High,Moderate,36.56,756.63,115.13,heart_40.png
+73,77.9,A+,114.37,14.08,Yes,High,High,Moderate,37.42,1163.28,83.77,heart_802.png
+138,91.73,AB-,130.77,13.34,Yes,Low,Moderate,Very high,37.26,567.21,85.17,heart_563.png
+149,94.72,A+,122.12,15.91,No,Low,Low,High,36.01,581.21,109.26,heart_366.png
+83,96.18,O+,121.92,13.04,No,Very low,High,Very high,36.63,415.57,82.67,heart_566.png
+170,100.41,A+,130.53,16.24,No,Moderate,Moderate,Moderate,37.35,1375.65,108.32,heart_324.png
+164,97.15,B+,93.54,13.16,Yes,Low,Very low,Moderate,37.2,712.45,108.37,heart_430.png
+86,114.06,A+,146.14,14.62,Yes,Low,High,Very high,36.34,1069.06,119.81,heart_451.png
+146,96.42,O+,107.49,14.52,Yes,Very low,High,Moderate,37.13,889.82,114.62,heart_953.png
+178,109.19,AB-,159.24,16.13,No,Very low,High,Very high,36.72,250.37,125.88,heart_631.png
+97,91.7,A+,105.28,14.42,Yes,Very low,High,High,37.17,822.53,105.93,heart_170.png
+293,134.84,AB-,176.96,14.75,No,Low,High,Very high,36.2,203.45,147.18,heart_188.png
+94,85.48,AB-,106.61,14.17,No,Very high,Very high,Moderate,36.76,1333.52,80.42,heart_409.png
+20,86.41,A+,93.24,15.99,Yes,Moderate,Moderate,High,36.28,769.72,99.5,heart_1099.png
+167,96.0,O+,69.02,13.26,Yes,High,Moderate,Very low,36.92,1108.81,88.02,heart_402.png
+118,85.03,B+,66.32,15.2,Yes,Very high,Moderate,Low,36.72,1136.88,93.53,heart_382.png
+123,94.57,O+,90.07,13.33,No,Low,Moderate,Moderate,38.19,731.74,89.92,heart_376.png
+136,87.07,A+,77.85,12.84,No,Low,High,Moderate,37.66,738.51,99.79,heart_987.png
+202,125.64,A-,114.7,13.82,Yes,Moderate,Very low,Moderate,37.74,505.12,85.73,heart_6.png
+202,109.12,A+,67.82,12.53,No,Low,Moderate,Very low,37.27,738.89,112.81,heart_863.png
+55,96.02,A+,83.59,12.81,Yes,Very low,Low,Moderate,36.48,661.57,81.78,heart_804.png
+132,97.53,O+,92.83,15.19,Yes,Low,Moderate,High,36.95,657.0,74.8,heart_565.png
+183,100.92,O+,98.22,15.03,No,Low,Moderate,High,37.39,647.61,100.49,heart_198.png
+132,78.8,O+,129.44,13.39,No,High,High,Moderate,36.96,1265.74,122.34,heart_459.png
+150,80.72,A+,117.17,12.5,Yes,Moderate,Moderate,High,38.15,1171.83,93.67,heart_318.png
+261,112.82,O+,128.41,13.82,Yes,Very low,Very low,Very high,36.7,56.78,104.95,heart_117.png
+143,90.89,A-,75.48,14.44,Yes,Moderate,High,Moderate,37.81,718.83,87.48,heart_544.png
+132,92.4,O+,107.03,15.39,No,Low,Low,High,36.59,955.55,107.02,heart_30.png
+92,87.41,A+,114.94,13.98,Yes,Low,Moderate,High,37.16,1243.35,107.39,heart_605.png
+140,113.09,O+,152.72,13.0,Yes,Very low,High,Very high,37.23,735.33,120.72,heart_456.png
+102,95.01,A+,120.17,14.77,Yes,Low,Low,High,37.19,832.49,97.76,heart_104.png
+125,101.33,O+,76.58,14.04,Yes,Very high,High,Low,37.57,822.39,100.62,heart_609.png
+128,105.13,O+,109.73,12.86,Yes,Very low,Very high,High,36.75,341.92,110.72,heart_865.png
+132,102.14,AB-,79.11,14.34,Yes,Very low,Moderate,Low,36.48,533.46,95.36,heart_885.png
+235,113.12,A+,127.92,14.36,No,Low,High,High,37.19,213.3,139.85,heart_313.png
+200,110.42,A+,136.25,13.17,Yes,Low,High,High,36.9,672.35,76.19,heart_1079.png
+209,105.12,AB-,103.93,13.51,No,Moderate,Moderate,Moderate,38.12,567.01,87.45,heart_328.png
+135,100.3,O+,110.34,13.33,Yes,Low,High,High,37.59,820.3,106.97,heart_1134.png
+108,96.23,O+,99.05,13.5,Yes,Moderate,Low,Moderate,36.8,940.04,100.83,heart_588.png
+107,94.05,O+,116.84,14.21,Yes,Low,High,Very high,36.94,948.27,86.0,heart_1168.png
+98,91.4,A+,88.45,14.28,No,Very low,Very low,High,37.15,685.27,100.98,heart_439.png
+60,85.73,A+,74.28,14.11,No,Very high,Moderate,Very low,36.76,1098.82,100.21,heart_799.png
+141,92.32,O+,113.85,16.46,Yes,Moderate,Very low,Moderate,37.17,903.17,98.92,heart_217.png
+144,97.56,O+,109.63,13.14,Yes,Moderate,Very high,Moderate,37.61,231.8,127.41,heart_844.png
+115,99.47,B+,141.08,13.17,No,High,Moderate,Very high,37.31,1280.71,120.84,heart_629.png
+173,103.6,O-,145.9,13.15,No,Very low,High,Very high,37.43,680.86,113.71,heart_758.png
+263,113.5,B+,91.24,14.32,Yes,Moderate,Moderate,Low,36.57,388.77,93.72,heart_401.png
+184,103.99,B+,122.53,15.08,No,Moderate,Very high,Low,36.9,541.25,120.55,heart_576.png
+27,93.59,O+,109.87,13.64,No,Low,Low,Moderate,36.53,794.69,104.01,heart_612.png
+70,93.23,A+,101.69,14.84,Yes,Very low,Moderate,Moderate,36.93,895.45,102.53,heart_453.png
+135,105.79,A+,147.21,11.78,Yes,Very low,High,Moderate,37.5,435.86,109.03,heart_270.png
+188,96.69,A-,151.86,14.05,Yes,Low,High,High,37.5,685.92,108.5,heart_377.png
+162,95.57,A+,84.73,14.07,No,Very low,High,Low,37.74,449.36,104.85,heart_894.png
+139,92.79,O-,93.11,13.22,No,Very low,High,High,37.52,548.41,103.99,heart_839.png
+112,80.76,O+,116.51,14.23,Yes,Low,Moderate,High,37.01,632.57,114.53,heart_13.png
+174,82.18,O+,89.56,14.91,Yes,High,Low,Moderate,37.11,535.86,73.53,heart_1017.png
+110,97.28,O+,79.74,15.55,Yes,Very low,Low,Moderate,36.95,672.69,84.22,heart_1121.png
+161,90.6,B-,91.08,12.58,Yes,Low,Very low,Moderate,36.6,611.23,74.29,heart_20.png
+264,133.13,A+,150.39,14.33,Yes,Low,Very high,High,37.82,143.26,125.5,heart_568.png
+97,97.4,B+,131.63,13.68,No,Moderate,Very low,High,36.93,1018.94,118.47,heart_344.png
+99,86.73,A+,97.44,15.23,Yes,Moderate,Low,Moderate,37.56,1017.04,105.6,heart_616.png
+130,84.29,AB+,80.44,13.29,Yes,Moderate,Low,Very low,37.36,687.67,105.37,heart_1132.png
+152,95.19,A+,94.83,15.97,No,Low,Low,Moderate,36.23,666.55,98.14,heart_41.png
+68,103.05,O+,82.6,15.89,No,Very low,Very high,Low,36.66,941.51,100.33,heart_684.png
+130,97.57,AB-,137.69,14.81,Yes,Low,Moderate,Very high,36.58,741.33,89.29,heart_301.png
+159,106.07,O-,134.08,15.59,No,Low,Very high,Very high,37.31,888.28,108.98,heart_479.png
+254,114.17,O+,96.66,15.54,Yes,Very low,Moderate,High,36.49,355.57,114.92,heart_1038.png
+177,83.42,A+,44.62,13.05,Yes,High,High,Low,37.84,652.02,98.22,heart_711.png
+132,99.96,AB+,139.72,15.0,Yes,Low,High,High,37.35,819.5,124.21,heart_1133.png
+154,112.93,AB+,133.72,15.03,Yes,Low,Very high,High,37.59,382.81,114.82,heart_683.png
+147,90.89,A+,107.05,14.98,No,Moderate,Low,High,37.19,582.49,97.3,heart_386.png
+117,90.9,A+,109.53,14.23,No,Low,Low,High,37.29,742.46,96.89,heart_522.png
+121,90.18,O+,96.35,12.47,Yes,Low,Very high,Moderate,37.07,848.16,108.04,heart_77.png
+143,105.0,A+,131.6,13.5,Yes,Low,Moderate,Moderate,36.23,813.75,124.61,heart_1173.png
+156,66.01,O+,93.48,16.24,No,Very high,Very low,Moderate,36.49,1024.05,100.56,heart_267.png
+119,92.08,O+,84.51,14.71,No,Very high,High,Very low,37.15,705.31,111.09,heart_1180.png
+137,92.86,O+,112.43,15.03,Yes,Low,Moderate,Low,37.25,836.86,104.42,heart_1082.png
+93,102.65,O-,139.91,14.11,No,Low,Moderate,Very high,37.74,688.85,115.15,heart_833.png
+124,94.33,AB+,127.18,16.08,Yes,Low,Low,High,37.07,1313.81,111.21,heart_147.png
+155,102.2,A+,157.69,14.53,No,Very low,Moderate,High,37.05,50.0,137.35,heart_1119.png
+118,91.41,B+,112.33,14.39,Yes,Low,Moderate,Very high,36.67,563.21,93.73,heart_701.png
+127,84.96,O+,58.9,13.06,No,Very high,Low,Very low,37.28,590.68,115.19,heart_384.png
+54,95.2,AB+,123.35,14.19,No,Very low,Very high,Very high,37.68,656.19,92.52,heart_287.png
+46,89.53,A+,125.15,14.06,No,High,Low,Very high,37.76,536.22,108.08,heart_494.png
+86,93.92,A+,121.5,13.36,Yes,Moderate,Very high,Very high,37.32,743.66,98.29,heart_869.png
+175,101.17,O-,118.7,15.09,Yes,Low,Moderate,Moderate,37.5,607.98,89.3,heart_521.png
+145,93.95,A+,99.17,14.88,No,Very low,Moderate,High,37.09,1003.63,103.49,heart_1124.png
+135,94.06,O-,108.97,13.45,No,Low,Moderate,High,37.78,436.69,102.42,heart_715.png
+170,102.33,O+,75.19,13.33,Yes,Very high,Moderate,Low,38.25,1146.06,97.35,heart_966.png
+133,97.88,B-,123.77,15.39,Yes,Very low,High,High,37.31,733.87,97.66,heart_1131.png
+63,93.22,O-,110.07,14.16,Yes,Moderate,Moderate,Moderate,38.08,1117.95,104.16,heart_578.png
+20,87.51,B+,84.96,14.01,No,High,Very low,Moderate,37.06,893.39,97.57,heart_1028.png
+166,102.12,A+,99.63,13.23,Yes,Very low,Low,Moderate,37.43,662.79,87.78,heart_898.png
+114,91.13,B+,84.11,14.71,Yes,Low,Low,Moderate,36.31,504.63,88.39,heart_220.png
+135,88.87,A+,119.93,14.41,Yes,Very low,High,Very high,36.74,581.96,78.55,heart_737.png
+133,89.92,A+,99.73,12.76,Yes,High,High,Moderate,36.4,1176.69,93.18,heart_245.png
+147,96.38,A+,112.16,12.87,No,Very low,High,Very high,37.12,669.69,103.41,heart_76.png
+58,77.16,O+,118.67,14.82,No,Moderate,Low,Moderate,36.44,839.87,111.36,heart_337.png
+136,86.27,A+,120.14,13.73,No,Low,Low,Very high,37.09,860.75,99.87,heart_1048.png
+107,97.06,A+,90.54,13.39,No,Very low,Moderate,Moderate,37.37,281.57,106.33,heart_417.png
+185,106.75,O+,92.7,13.99,No,Low,Low,Moderate,36.48,414.16,107.48,heart_637.png
+59,101.21,A-,102.34,14.43,Yes,Moderate,Moderate,High,36.82,703.65,97.93,heart_974.png
+35,101.32,O+,118.47,12.74,No,Low,Very high,High,36.13,1114.98,104.19,heart_980.png
+163,126.25,A+,189.18,14.17,No,Very low,Very low,Very high,36.9,882.87,137.36,heart_995.png
+20,78.59,O+,77.38,14.11,Yes,Moderate,High,Low,36.24,1204.03,85.67,heart_706.png
+141,94.46,A+,145.93,13.85,Yes,Very low,Very high,Very high,35.76,740.93,126.92,heart_722.png
+175,103.93,AB+,108.58,13.49,Yes,Low,High,Moderate,37.02,574.31,80.06,heart_304.png
+184,104.85,B+,100.23,12.88,Yes,Very low,Moderate,High,36.74,545.1,102.25,heart_920.png
+102,65.21,O+,106.38,14.14,No,Very high,Very low,Low,36.83,1047.76,97.98,heart_231.png
+151,83.37,A+,119.35,14.35,No,Low,Moderate,High,36.64,550.83,117.97,heart_216.png
+100,98.84,A+,115.9,13.83,Yes,Low,High,High,37.73,524.02,113.11,heart_842.png
+114,78.73,AB+,138.54,14.27,No,Moderate,Low,Very high,36.61,783.92,106.43,heart_54.png
+175,94.52,A+,85.06,13.08,Yes,Very low,Very low,Moderate,36.5,656.2,95.97,heart_646.png
+128,90.43,A+,99.16,13.88,Yes,High,Moderate,High,36.33,975.69,102.79,heart_1147.png
+24,90.05,B+,85.76,13.02,Yes,Low,High,Low,36.13,790.58,106.08,heart_689.png
+28,86.5,A+,119.64,15.11,Yes,Very high,Very high,Very high,37.08,922.69,83.4,heart_738.png
+165,109.87,A-,135.11,15.17,Yes,Very low,Moderate,Moderate,37.16,58.99,132.99,heart_491.png
+93,86.76,A+,86.72,13.87,Yes,Very high,Very high,Moderate,36.79,708.09,103.68,heart_823.png
+94,108.47,AB-,150.22,14.67,Yes,Low,Moderate,Very high,37.36,212.56,123.14,heart_391.png
+83,86.66,A+,84.36,12.88,Yes,Moderate,Very low,Low,37.84,964.35,93.62,heart_223.png
+161,101.86,B+,136.76,14.81,Yes,Low,High,High,36.54,517.01,111.23,heart_977.png
+109,99.97,A+,140.75,12.78,Yes,Very low,Moderate,Very high,37.41,608.64,85.34,heart_1024.png
+73,93.84,A+,94.52,13.83,Yes,Low,High,High,37.1,1117.78,94.54,heart_475.png
+182,107.82,A+,83.06,13.66,Yes,Low,Very high,Moderate,36.41,455.9,96.74,heart_332.png
+222,108.42,O+,103.86,14.71,No,Very low,Moderate,Moderate,36.8,343.45,111.01,heart_772.png
+166,110.4,AB+,151.43,13.76,Yes,Very low,High,High,37.03,220.41,131.01,heart_294.png
+194,112.35,A+,127.93,13.76,No,Low,Low,Very high,37.46,788.5,96.09,heart_724.png
+93,99.9,A+,129.87,13.03,Yes,Moderate,High,High,37.64,1130.67,109.01,heart_81.png
+144,84.94,A+,68.45,14.19,No,Moderate,Moderate,Low,36.7,785.84,95.32,heart_841.png
+102,105.37,B+,154.81,13.23,No,High,Low,Very high,36.15,869.48,125.16,heart_490.png
+123,95.92,O+,123.11,15.69,No,Moderate,Moderate,Moderate,36.31,961.01,89.68,heart_906.png
+132,87.49,O+,103.18,12.78,Yes,Low,Moderate,High,36.16,462.25,92.09,heart_753.png
+107,88.71,O+,101.99,13.8,Yes,Low,High,Moderate,36.95,518.53,92.68,heart_1163.png
+139,95.16,B+,114.58,13.19,No,Moderate,High,High,36.66,726.18,106.94,heart_315.png
+127,71.2,O-,67.88,11.89,Yes,Very high,High,Very low,36.46,1495.26,86.13,heart_1075.png
+62,107.09,B+,128.86,16.11,Yes,Very low,Very low,High,37.12,643.11,120.27,heart_1035.png
+107,91.98,A+,105.33,15.95,Yes,Low,Moderate,Moderate,36.9,882.45,115.46,heart_1126.png
+47,90.17,AB-,123.78,14.7,Yes,Very low,High,Moderate,37.19,726.29,94.14,heart_115.png
+125,94.15,A+,91.31,13.96,No,Low,Very low,High,37.22,617.45,100.14,heart_1044.png
+65,98.43,AB+,94.24,13.81,Yes,Very low,High,Moderate,37.81,711.66,103.7,heart_517.png
+63,92.89,O+,107.42,16.29,No,Low,Moderate,Very low,37.51,834.86,100.86,heart_969.png
+100,99.21,O+,157.42,13.97,Yes,High,High,Very high,36.96,951.09,120.66,heart_388.png
+164,82.95,B+,94.95,12.43,No,Very high,Low,Low,37.38,789.6,114.35,heart_551.png
+126,105.14,O+,93.04,12.43,No,Very low,Very high,High,37.51,837.69,87.53,heart_876.png
+131,96.82,O+,125.82,13.37,Yes,Very low,Very high,High,37.16,622.82,95.32,heart_1157.png
+201,115.87,A-,113.6,14.19,No,Moderate,Moderate,High,36.56,417.74,91.24,heart_486.png
+162,99.24,A+,123.72,14.03,Yes,Moderate,Very high,Very high,38.23,350.17,103.74,heart_248.png
+106,90.3,O-,115.93,13.32,No,Moderate,Low,High,37.74,1233.42,82.69,heart_330.png
+118,97.47,O+,74.81,13.94,Yes,Very high,Very high,Low,37.27,1220.33,91.68,heart_750.png
+149,91.05,A+,107.59,13.74,No,High,Moderate,High,37.09,1032.39,95.84,heart_528.png
+176,103.1,A+,117.88,13.61,Yes,High,Moderate,Very low,36.87,971.73,116.92,heart_1007.png
+189,115.48,A+,147.18,15.76,No,Very low,Very low,High,37.12,249.96,117.2,heart_1047.png
+162,98.75,O-,137.3,14.08,Yes,Low,High,Very high,37.09,753.1,105.04,heart_660.png
+92,87.89,O+,113.43,16.61,Yes,Very high,Low,High,37.34,663.52,105.51,heart_1102.png
+189,100.02,AB-,104.6,13.09,Yes,Low,High,Moderate,37.74,470.16,116.52,heart_422.png
+142,87.56,A+,98.29,13.81,Yes,Very low,Moderate,Moderate,36.81,537.73,80.22,heart_480.png
+139,105.82,A+,151.23,14.38,Yes,Low,Very high,Very high,37.82,1035.46,123.51,heart_393.png
+50,96.62,O+,107.57,15.17,No,Low,Moderate,High,36.8,633.68,104.93,heart_234.png
+85,106.81,AB-,136.71,14.29,Yes,Low,High,High,37.32,969.73,119.97,heart_156.png
+46,85.2,O+,88.27,14.12,No,Very high,High,High,36.78,1304.61,98.14,heart_476.png
+67,84.15,O+,104.35,14.64,Yes,Moderate,Moderate,Moderate,36.46,979.48,103.08,heart_1103.png
+198,116.83,A+,139.63,14.4,No,High,Very high,Very high,36.65,644.64,120.57,heart_305.png
+145,87.69,B-,94.92,12.11,Yes,High,Moderate,Moderate,36.69,869.35,92.69,heart_806.png
+138,101.87,A+,143.1,15.35,Yes,Low,Low,Very high,37.07,691.9,88.34,heart_423.png
+84,79.52,O-,72.43,14.26,Yes,High,High,Low,36.88,745.96,110.09,heart_325.png
+67,103.65,O+,145.51,15.95,Yes,Low,High,Very high,37.2,712.11,108.29,heart_343.png
+155,96.59,B+,122.18,14.9,No,Moderate,High,Very high,36.44,514.04,112.38,heart_62.png
+104,94.8,O+,122.85,14.8,Yes,Very low,Moderate,Very high,37.43,658.74,105.93,heart_142.png
+145,89.87,AB+,99.61,15.68,No,Low,Moderate,Moderate,37.03,533.65,105.71,heart_1158.png
+62,73.33,A+,105.52,14.32,No,Very high,Very high,Moderate,37.24,1096.9,94.76,heart_671.png
+108,89.28,A+,50.47,13.71,Yes,High,Low,Very low,36.77,1070.55,87.24,heart_627.png
+186,112.04,A-,134.42,14.63,No,Low,High,High,37.61,217.38,127.53,heart_527.png
+167,93.47,A+,81.95,14.6,Yes,Very low,Moderate,Moderate,36.86,542.2,91.99,heart_183.png
+89,96.31,O-,137.9,13.44,Yes,Low,Very low,Very high,36.97,871.64,109.33,heart_571.png
+217,91.8,A+,86.21,14.42,No,High,High,Very low,37.41,613.18,96.53,heart_1160.png
+162,99.39,O+,105.92,12.58,Yes,Very low,High,High,36.74,741.8,96.38,heart_935.png
+114,90.83,O-,113.96,14.15,Yes,Moderate,Moderate,Moderate,35.91,920.87,96.2,heart_53.png
+86,91.81,O+,129.65,13.87,Yes,Very high,Very low,High,36.93,1019.75,99.85,heart_261.png
+73,72.97,A+,112.44,14.12,No,Low,Very low,High,36.6,1031.88,100.12,heart_436.png
+101,91.74,A+,96.71,14.26,Yes,High,Moderate,Moderate,36.5,835.4,101.03,heart_282.png
+62,96.62,O-,127.32,14.29,Yes,Very low,Moderate,Moderate,37.11,340.45,113.39,heart_644.png
+67,81.16,AB-,80.06,13.3,Yes,Moderate,High,High,36.17,871.03,104.94,heart_434.png
+193,101.23,O+,74.21,12.78,No,High,Moderate,Very low,36.45,612.44,99.37,heart_797.png
+189,94.65,A+,113.79,15.5,No,Low,Low,Moderate,36.97,648.79,115.72,heart_383.png
+66,94.63,A+,87.16,12.91,No,Low,High,Low,38.15,842.49,99.01,heart_57.png
+223,88.96,A+,81.14,15.48,No,Very high,Moderate,Low,36.66,928.43,110.0,heart_16.png
+107,90.21,O+,108.41,14.11,Yes,Moderate,Moderate,High,37.5,1109.77,97.45,heart_336.png
+112,102.09,O-,109.96,15.41,Yes,Very low,Very low,Very high,37.62,935.07,86.97,heart_79.png
+196,112.6,A+,91.13,14.48,No,Very low,Very high,Low,37.38,765.48,104.54,heart_290.png
+178,110.78,O-,152.39,13.75,Yes,Low,Very low,Very high,36.55,926.35,105.43,heart_886.png
+187,89.09,B-,66.07,14.44,No,High,Very low,Very low,37.16,899.27,84.77,heart_55.png
+201,105.57,B+,91.07,13.81,Yes,Low,High,Moderate,37.58,376.43,91.77,heart_368.png
+125,117.3,O+,157.85,14.63,Yes,Very low,High,Very high,36.19,836.4,117.96,heart_968.png
+89,84.26,O+,80.42,16.9,Yes,High,Moderate,Low,37.88,520.49,95.1,heart_1112.png
+241,92.42,O+,103.9,12.93,No,Very high,Moderate,Moderate,37.26,739.26,102.78,heart_719.png
+172,113.45,O+,138.13,14.87,Yes,Very low,Moderate,High,37.02,91.0,125.56,heart_317.png
+132,95.44,O-,72.17,14.29,Yes,Low,High,Very low,37.24,909.94,97.89,heart_108.png
+52,74.11,A+,118.11,14.55,Yes,High,High,Very high,36.6,1029.64,85.35,heart_203.png
+183,110.59,O-,116.65,13.51,No,Very low,High,Very high,37.38,454.22,100.77,heart_1083.png
+59,89.97,A-,147.82,15.61,No,Low,Moderate,Very high,36.74,817.05,106.65,heart_700.png
+157,105.05,A+,106.47,14.0,Yes,Very low,Very high,Moderate,37.09,449.77,82.61,heart_707.png
+210,115.05,O+,93.66,14.47,No,Low,Very high,Moderate,37.4,575.76,87.09,heart_99.png
+188,107.57,A+,120.61,14.73,Yes,Low,Moderate,Moderate,36.71,581.96,111.24,heart_65.png
+61,110.45,A+,133.31,14.72,Yes,Very low,Low,High,37.27,672.82,97.81,heart_769.png
+123,98.11,A+,96.03,15.2,No,Low,Very high,Low,36.84,715.55,108.81,heart_564.png
+199,115.36,O+,149.37,15.27,No,Low,Moderate,High,37.47,527.18,100.35,heart_654.png
+99,81.94,O+,91.04,12.34,Yes,Moderate,Moderate,Low,36.32,929.09,74.46,heart_1106.png
+24,95.2,A-,165.13,16.37,Yes,Low,Moderate,High,36.18,629.77,114.1,heart_1120.png
+48,95.49,O+,113.39,14.25,No,Very high,Moderate,Moderate,37.27,984.62,106.67,heart_233.png
+100,83.91,B+,57.9,14.46,No,High,Moderate,Very low,37.73,1370.58,84.9,heart_1116.png
+119,89.41,A-,96.45,12.34,Yes,Low,Low,High,37.52,999.27,104.3,heart_477.png
+152,97.5,O+,132.17,14.54,No,Low,High,High,36.38,273.19,127.6,heart_1087.png
+132,96.87,A+,114.99,15.49,Yes,Very low,High,Moderate,36.98,483.98,87.77,heart_88.png
+122,87.28,O-,61.35,13.73,Yes,Moderate,Moderate,Very low,36.74,801.67,78.97,heart_900.png
+146,80.53,AB+,69.67,13.33,Yes,High,Moderate,Very low,37.28,1088.33,95.64,heart_1032.png
+120,98.28,AB-,96.28,12.5,No,Very low,Low,Moderate,37.19,631.76,95.17,heart_365.png
+204,118.49,A+,167.38,14.09,No,Very low,Moderate,Very high,36.97,262.24,121.26,heart_952.png
+223,113.65,O-,115.29,14.18,No,Low,Very high,High,36.13,490.05,103.02,heart_791.png
+185,99.06,O+,95.49,15.85,Yes,Low,Moderate,High,37.34,371.25,75.54,heart_145.png
+104,100.95,B-,124.8,13.73,Yes,Very low,Very high,High,36.25,717.57,107.61,heart_809.png
+85,105.63,O+,169.58,12.85,No,Very low,Moderate,Very high,36.87,630.24,117.46,heart_656.png
+154,95.27,O-,139.08,13.23,Yes,Very low,Low,Very high,37.69,570.31,90.44,heart_275.png
+137,92.53,O+,138.36,13.2,No,Very low,Moderate,Very high,36.56,905.57,114.21,heart_714.png
+67,77.96,A+,44.73,13.98,Yes,High,Moderate,Very low,36.46,806.52,75.0,heart_508.png
+140,88.51,B-,121.21,13.08,No,Moderate,Moderate,Moderate,37.38,806.17,123.42,heart_1190.png
+112,105.96,AB-,125.69,13.94,Yes,Very low,High,Very high,37.63,627.38,94.28,heart_713.png
+146,91.31,O-,67.66,16.73,No,High,Moderate,Very low,36.72,1312.54,107.54,heart_674.png
+114,97.5,B+,74.38,13.85,No,Very low,Very high,Low,37.3,304.59,106.28,heart_7.png
+92,93.84,O+,99.68,13.94,Yes,Low,Moderate,High,36.81,952.73,75.61,heart_1127.png
+183,101.15,A+,132.93,15.44,No,Low,Moderate,Very high,37.19,788.99,106.67,heart_300.png
+134,95.35,AB-,111.45,15.1,No,Low,Low,Very high,36.58,817.01,107.72,heart_730.png
+216,127.75,AB-,139.26,13.17,Yes,Low,Very low,High,36.94,468.94,109.28,heart_110.png
+184,104.05,O+,105.48,15.56,No,Low,High,High,36.12,600.4,89.08,heart_574.png
+100,92.78,O+,157.05,12.22,No,Low,Moderate,Very high,37.29,975.93,115.21,heart_608.png
+215,112.66,O+,113.32,14.3,No,Moderate,Very high,Very low,37.11,620.59,118.73,heart_114.png
+146,105.99,A+,95.0,14.57,Yes,Low,High,High,37.44,922.24,70.17,heart_441.png
+145,82.73,O+,132.6,14.99,No,Moderate,Moderate,High,36.69,1058.11,103.63,heart_1137.png
+109,98.97,O+,92.47,15.1,Yes,Low,Very high,Moderate,36.27,710.32,90.22,heart_59.png
+121,95.23,B+,68.26,14.67,No,Very high,High,Very low,36.86,963.89,94.46,heart_106.png
+188,111.57,B-,137.61,15.23,Yes,Low,Very high,Very high,38.15,460.32,101.78,heart_718.png
+63,82.93,O+,56.05,14.55,Yes,Very high,Moderate,Very low,37.44,859.05,92.64,heart_924.png
+92,86.25,O+,106.03,13.31,Yes,Low,Low,High,37.25,932.66,84.34,heart_239.png
+79,119.64,O+,169.96,15.96,No,Very low,High,Very high,37.02,435.78,136.56,heart_708.png
+86,111.97,B-,173.71,15.16,No,Very low,High,Very high,37.72,602.47,124.48,heart_691.png
+150,110.15,AB+,152.95,15.34,No,High,Moderate,Very high,37.01,929.7,117.97,heart_880.png
+143,97.79,A+,128.4,14.47,Yes,Very low,Very high,Very high,37.97,862.37,92.0,heart_478.png
+84,51.23,O-,68.1,14.71,Yes,Very high,Moderate,Very low,37.69,1058.74,85.05,heart_964.png
+83,92.45,A+,79.44,13.39,No,Very low,Low,Moderate,36.68,448.75,100.61,heart_102.png
+125,98.97,A+,104.63,14.36,No,Low,High,Low,37.13,890.78,109.59,heart_1164.png
+93,97.02,A+,122.54,16.67,No,Low,Moderate,Very high,36.73,532.12,102.24,heart_558.png
+195,108.1,A+,107.15,15.65,Yes,Very low,Moderate,Moderate,36.75,50.0,115.26,heart_756.png
+105,94.83,O-,119.98,14.72,No,Low,Low,Very high,37.07,905.21,93.29,heart_624.png
+143,91.55,A+,126.22,15.42,Yes,Low,Moderate,Very high,36.36,861.34,90.24,heart_688.png
+144,93.84,O+,145.2,15.88,Yes,Low,Moderate,Very high,37.66,465.45,84.94,heart_1058.png
+58,90.2,A-,89.89,14.31,No,Moderate,High,Moderate,35.96,1054.87,101.01,heart_1129.png
+213,106.3,B+,93.19,13.04,No,High,High,Low,37.97,417.46,76.25,heart_760.png
+91,90.57,B-,117.51,15.08,Yes,Very low,Moderate,Very high,36.64,730.26,87.55,heart_735.png
+92,85.42,AB+,102.98,12.95,No,Moderate,Moderate,Moderate,36.93,688.57,112.9,heart_554.png
+146,93.57,O+,83.61,13.3,Yes,Very low,Moderate,Moderate,37.51,576.83,88.92,heart_572.png
+132,94.29,A-,118.33,13.73,Yes,Low,Very high,High,37.22,523.39,96.02,heart_549.png
+108,101.6,A+,144.64,15.45,No,Moderate,Moderate,Very high,37.39,891.05,105.12,heart_682.png
+169,92.63,A+,71.21,13.63,Yes,Moderate,Low,Moderate,36.94,737.5,106.39,heart_221.png
+220,112.82,O+,138.6,13.25,No,Low,High,High,35.94,372.89,119.9,heart_454.png
+141,97.19,AB+,83.45,15.3,Yes,Moderate,Very high,Moderate,37.36,1137.52,80.42,heart_950.png
+110,101.97,AB+,98.16,15.75,Yes,Very low,Moderate,High,37.06,1180.76,96.38,heart_785.png
+129,86.52,A+,56.47,12.45,Yes,Very high,Moderate,Very low,37.78,916.36,92.25,heart_523.png
+127,96.37,A+,91.77,13.86,Yes,Very low,Very low,Moderate,37.54,858.37,92.36,heart_821.png
+64,93.26,AB+,118.8,13.44,Yes,High,High,Moderate,37.35,821.7,73.88,heart_895.png
+167,74.23,O-,95.06,13.5,No,High,High,High,36.87,880.96,93.94,heart_1066.png
+59,91.94,B+,109.45,14.96,No,High,Moderate,Very high,36.55,693.08,90.54,heart_610.png
+89,92.38,A+,80.32,15.42,Yes,Low,Moderate,Moderate,36.48,805.06,98.43,heart_575.png
+152,96.35,O+,78.32,15.73,Yes,Low,High,Low,37.03,1016.1,95.09,heart_193.png
+136,89.84,O+,116.09,15.03,No,Low,Very low,High,36.74,722.65,95.59,heart_1085.png
+70,92.35,B+,106.56,14.94,Yes,Low,Very high,Moderate,37.01,570.47,96.9,heart_408.png
+124,84.19,AB+,89.98,13.97,Yes,Moderate,Very high,High,36.65,761.76,97.87,heart_961.png
+118,90.34,O+,72.93,14.06,Yes,High,High,Low,36.79,831.66,96.06,heart_834.png
+165,105.39,O+,139.9,14.61,No,Very low,Moderate,Very high,36.97,399.35,108.41,heart_209.png
+113,92.85,A-,72.06,13.96,Yes,Low,High,Low,36.32,567.39,96.54,heart_242.png
+148,96.86,A+,137.05,14.4,Yes,Low,Low,Very high,37.25,710.52,82.95,heart_458.png
+115,86.52,A-,155.77,14.75,No,Low,Low,Very high,37.42,491.32,108.03,heart_100.png
+177,111.32,O+,137.13,14.11,Yes,High,Very high,Very high,36.62,958.93,75.72,heart_474.png
+61,96.28,O+,110.14,14.06,Yes,High,High,Very high,37.42,918.95,100.38,heart_157.png
+199,105.71,AB-,115.93,13.36,No,Very high,Moderate,Low,37.4,676.41,110.16,heart_279.png
+145,95.74,AB-,99.78,14.02,Yes,Low,Moderate,Moderate,36.43,1043.94,97.47,heart_418.png
+20,84.87,B+,122.24,16.14,Yes,Moderate,High,Very high,38.15,1011.31,102.25,heart_356.png
+232,135.53,B-,132.11,14.3,No,Very low,Very high,High,37.71,50.0,131.06,heart_690.png
+184,103.35,B+,129.15,13.05,No,Low,Moderate,High,36.87,535.06,101.42,heart_643.png
+145,94.8,O+,158.38,14.24,Yes,Moderate,Moderate,Very high,36.98,981.2,112.89,heart_764.png
+136,104.41,O+,69.43,14.6,No,Moderate,Very high,Very low,36.23,726.28,102.0,heart_601.png
+105,84.81,O+,73.44,14.83,No,High,Moderate,Low,37.84,1264.93,99.42,heart_346.png
+172,98.68,O-,113.16,13.75,No,Low,Moderate,Moderate,36.41,246.61,114.97,heart_433.png
+127,101.58,A-,91.64,13.64,Yes,Low,Very high,Low,37.08,1097.3,78.1,heart_445.png
+107,95.02,A+,95.7,15.02,No,High,Moderate,Moderate,37.49,1127.74,102.59,heart_580.png
+174,117.16,O+,157.74,13.32,Yes,Very low,High,Very high,37.2,268.47,102.8,heart_196.png
+75,91.22,O+,123.62,14.13,No,Very low,High,Very high,36.75,580.59,98.41,heart_618.png
+133,86.23,AB-,125.77,14.2,No,Moderate,Very low,Very high,37.13,808.18,113.53,heart_702.png
+68,92.79,O-,100.32,14.85,No,Low,High,High,36.58,648.71,107.35,heart_1076.png
+140,94.54,A+,79.67,13.88,Yes,Very low,Low,Moderate,37.14,816.64,92.8,heart_902.png
+78,87.16,B+,90.57,12.61,Yes,Very high,High,Low,36.84,1294.35,77.69,heart_814.png
+96,80.6,AB-,63.25,13.29,Yes,Very high,Very high,Very low,36.72,933.51,84.08,heart_925.png
+102,91.76,O+,106.91,14.18,No,Very low,Very low,High,36.11,868.4,95.68,heart_639.png
+105,95.66,A+,106.21,13.02,Yes,High,Moderate,Moderate,37.86,1036.4,122.23,heart_288.png
+199,104.64,O+,90.59,16.09,No,Low,Moderate,Moderate,36.79,737.94,103.1,heart_1151.png
+146,91.56,O+,74.62,13.81,Yes,High,Low,Low,36.92,1060.85,97.23,heart_32.png
+157,99.95,A+,160.44,15.81,Yes,Low,Very low,Very high,37.81,870.05,124.41,heart_1115.png
+193,124.81,A+,138.43,15.77,Yes,Low,High,High,36.99,192.6,157.68,heart_66.png
+30,91.26,AB+,53.29,15.16,Yes,Very high,Very high,Low,36.11,993.17,87.35,heart_90.png
+192,99.1,O+,107.85,13.69,No,Moderate,Very high,Low,36.26,677.97,112.46,heart_997.png
+109,89.84,A+,74.8,15.23,No,Low,Moderate,Moderate,36.23,800.62,106.5,heart_438.png
+46,87.78,AB-,98.67,14.65,No,High,Very low,Low,36.86,1204.89,95.26,heart_795.png
+146,86.55,B-,103.12,13.39,Yes,Very high,High,High,37.01,925.47,93.31,heart_153.png
+171,128.73,O+,153.65,14.06,Yes,Very low,Moderate,High,37.17,218.83,127.8,heart_946.png
+192,92.14,A+,92.01,12.81,No,High,Moderate,Low,36.61,347.72,107.35,heart_351.png
+162,84.25,O+,92.45,15.02,Yes,Very high,Moderate,Very low,36.75,1053.75,92.6,heart_1107.png
+144,109.32,O+,117.06,15.09,Yes,Low,Very high,Very high,36.51,789.21,94.94,heart_37.png
+105,94.21,A+,119.14,14.8,Yes,Low,Moderate,High,37.42,823.48,107.18,heart_940.png
+192,124.85,B+,156.03,15.04,No,Low,Very high,High,36.26,220.58,133.23,heart_1139.png
+137,82.71,O+,95.07,14.96,Yes,Very high,High,Low,35.8,1075.54,98.55,heart_901.png
+120,91.57,A+,73.68,13.71,Yes,Low,High,Moderate,37.7,429.63,58.16,heart_595.png
+92,99.14,O+,125.16,14.62,Yes,Very low,Low,Very high,37.05,589.15,83.2,heart_954.png
+82,66.43,A+,113.75,13.56,Yes,High,Very high,Moderate,36.15,1568.24,107.63,heart_467.png
+171,117.2,B+,133.17,14.04,Yes,Very low,Very high,Very high,36.49,235.26,113.53,heart_1056.png
+168,104.28,A+,117.81,13.81,No,Very low,Moderate,Very high,37.51,472.37,100.54,heart_546.png
+200,109.3,O+,73.68,13.35,Yes,Moderate,Moderate,Very low,36.22,898.91,110.03,heart_1105.png
+79,97.03,B+,122.23,13.28,Yes,Low,Low,Very high,37.0,1014.08,104.77,heart_619.png
+41,95.4,B-,132.66,14.16,No,Very low,Moderate,Very high,37.05,508.21,105.33,heart_681.png
+211,102.31,O+,103.08,12.97,Yes,Very high,Very high,Moderate,36.72,445.13,97.75,heart_731.png
+211,112.64,A+,60.39,14.02,No,High,Very high,Very low,36.31,421.17,102.08,heart_983.png
+83,89.8,O+,94.03,14.47,Yes,Low,Very low,Moderate,36.57,1002.55,83.13,heart_219.png
+72,97.82,A+,114.22,13.61,No,Very low,High,High,36.22,436.45,111.55,heart_123.png
+175,89.44,O+,91.79,15.03,Yes,Very high,High,High,37.01,813.6,90.07,heart_1101.png
+108,102.25,AB+,95.31,15.73,No,Low,High,Low,38.11,564.79,106.36,heart_542.png
+183,94.96,A+,92.76,15.02,No,High,High,Low,37.57,1024.11,115.1,heart_227.png
+50,95.03,O+,143.12,14.02,Yes,Very low,Very low,Very high,36.83,640.35,110.38,heart_782.png
+193,102.65,A+,104.43,14.06,Yes,Low,Low,High,36.25,397.43,91.62,heart_908.png
+113,95.14,B+,81.82,14.16,No,Moderate,Very high,Moderate,37.51,949.35,97.82,heart_506.png
+159,92.57,O-,87.41,14.37,No,High,Very high,Low,36.5,591.05,106.26,heart_136.png
+181,93.61,A+,132.98,14.68,No,High,Very high,Very high,36.96,488.07,123.51,heart_60.png
+65,91.35,A+,122.8,15.68,Yes,Low,Moderate,Very high,36.95,1035.57,105.93,heart_1098.png
+132,93.87,A+,60.59,15.04,No,Moderate,Moderate,Very low,36.32,842.84,76.03,heart_169.png
+137,90.82,A+,118.81,14.43,No,Moderate,Very high,High,36.87,941.17,108.37,heart_970.png
+185,110.92,O+,99.34,13.96,No,Low,Very high,High,36.38,692.71,111.34,heart_887.png
+190,126.93,A-,130.33,14.23,No,Very low,Moderate,Moderate,37.07,120.31,137.88,heart_514.png
+151,95.28,O+,103.49,13.55,Yes,Moderate,Low,High,36.67,574.47,104.39,heart_939.png
+170,80.11,A-,162.29,13.48,No,Very high,Very low,Very high,36.93,630.3,117.57,heart_364.png
+69,83.92,A+,119.71,15.59,No,Moderate,Moderate,Very high,36.56,884.42,102.91,heart_14.png
+69,98.76,O+,103.55,13.84,Yes,Low,High,Low,37.46,1139.02,121.0,heart_732.png
+127,71.57,O+,61.73,12.93,Yes,Very high,Low,Very low,36.31,1114.21,91.3,heart_765.png
+130,92.83,AB-,127.35,13.66,Yes,Very low,Very high,High,36.5,495.28,105.61,heart_15.png
+202,105.64,O-,70.0,13.04,No,Low,Moderate,Very low,36.35,468.34,98.84,heart_127.png
+182,130.8,O+,143.7,13.9,No,Very low,Moderate,High,36.78,482.5,129.59,heart_979.png
+151,96.62,A-,100.71,14.41,Yes,Low,Moderate,Low,37.91,670.46,95.56,heart_281.png
+202,102.56,A+,117.68,12.97,No,Low,Low,Very high,36.91,699.07,96.3,heart_725.png
+175,84.79,O+,113.8,14.71,Yes,Moderate,Low,High,38.02,722.78,74.6,heart_938.png
+142,102.14,O+,96.1,12.98,Yes,Very low,Moderate,Moderate,36.93,515.15,80.21,heart_1077.png
+121,94.75,A+,64.43,13.54,Yes,Very high,Low,Very low,36.97,1453.16,94.11,heart_877.png
+181,133.19,A+,158.39,13.66,No,Very low,Very high,High,37.09,602.04,114.35,heart_47.png
+77,84.93,B+,108.35,13.99,Yes,Low,Moderate,High,36.48,743.52,103.2,heart_515.png
+103,93.08,O+,100.58,13.82,No,Very low,High,Moderate,36.93,440.71,100.68,heart_166.png
+81,84.0,A+,120.19,13.11,Yes,Moderate,Moderate,Very high,37.55,1077.0,103.05,heart_794.png
+101,72.03,O+,78.78,14.51,No,High,High,Very low,36.94,671.01,88.28,heart_1073.png
+100,92.84,B+,74.21,15.21,Yes,Low,Moderate,Very low,37.0,762.36,100.95,heart_789.png
+187,80.45,O+,77.09,14.32,No,Very high,Low,Very low,37.89,909.29,99.75,heart_998.png
+241,115.62,O+,77.97,14.61,No,Moderate,Moderate,Very low,36.55,954.56,97.6,heart_976.png
+146,98.59,O+,63.4,13.32,Yes,High,Low,Very low,36.67,770.32,83.36,heart_1145.png
+163,87.67,A+,70.65,14.19,Yes,Moderate,Low,Very low,36.74,551.91,72.66,heart_129.png
+99,99.44,A-,139.3,14.33,Yes,Low,Moderate,Very high,37.1,596.2,94.14,heart_826.png
+94,84.67,O-,92.98,16.16,No,Moderate,Moderate,Moderate,36.53,955.24,112.29,heart_787.png
+112,81.51,O+,88.61,14.43,No,Moderate,Very high,Low,37.93,1100.53,103.76,heart_265.png
+134,99.96,O+,129.4,14.22,No,Low,Low,High,37.21,846.03,109.23,heart_207.png
+193,96.25,O+,68.35,12.79,No,High,Moderate,Very low,37.48,762.59,94.98,heart_741.png
+131,81.3,A+,73.09,12.66,No,High,Very high,Very low,37.05,1134.99,90.03,heart_420.png
+181,102.53,AB+,83.56,14.61,No,Low,Moderate,Low,36.59,457.65,99.04,heart_427.png
+199,116.89,A+,133.41,13.02,Yes,Low,Moderate,High,37.07,596.2,108.95,heart_1069.png
+87,93.95,A-,128.8,13.76,No,Low,Moderate,Moderate,36.69,852.36,109.52,heart_1162.png
+75,90.71,A+,61.41,14.13,Yes,Moderate,Low,Very low,36.66,807.76,80.59,heart_118.png
+135,85.77,O-,149.39,13.39,No,Low,Low,Very high,36.87,965.32,115.76,heart_1062.png
+125,90.63,A+,113.12,14.08,Yes,Low,Very high,Moderate,37.83,779.46,99.51,heart_1138.png
+157,86.49,O+,135.3,14.5,No,Low,High,Very high,37.02,418.12,104.6,heart_473.png
+97,109.72,A-,88.46,13.23,Yes,Low,Very high,Moderate,35.89,631.5,96.31,heart_21.png
+91,88.46,O+,121.11,16.12,Yes,Moderate,Moderate,Very high,37.05,485.72,108.84,heart_978.png
+140,100.26,A+,146.3,13.99,No,High,Very low,High,36.49,683.87,107.81,heart_783.png
+158,102.45,A+,143.04,14.94,No,Very low,High,High,36.87,175.83,128.54,heart_144.png
+167,113.03,A-,117.34,12.62,Yes,Very low,Moderate,Very high,37.33,605.23,104.87,heart_174.png
+55,113.2,O+,174.7,14.41,Yes,Very low,Moderate,Very high,36.27,50.0,148.02,heart_991.png
+174,101.26,O+,123.17,14.96,Yes,Very low,Moderate,Very high,37.23,672.33,91.59,heart_728.png
+85,95.55,O+,134.74,15.98,Yes,Low,High,Very high,36.23,528.82,99.12,heart_583.png
+260,91.91,A-,86.81,13.7,No,Very high,Moderate,Very low,37.09,473.01,112.36,heart_295.png
+172,105.75,AB-,77.86,13.95,Yes,Very low,High,Moderate,37.71,295.78,99.49,heart_1150.png
+132,97.49,O+,88.62,13.11,Yes,Moderate,Moderate,Low,37.49,1017.48,99.74,heart_781.png
+235,117.4,A+,105.98,13.9,No,Very low,Moderate,Moderate,36.94,392.06,106.37,heart_396.png
+150,85.75,A+,108.57,14.06,Yes,Very high,Very low,Moderate,36.88,1199.19,94.99,heart_729.png
+20,91.64,O-,89.21,13.76,Yes,Moderate,High,Moderate,38.08,1089.88,82.78,heart_338.png
+203,100.88,O+,85.82,13.55,No,Low,Very low,Moderate,36.75,636.59,93.49,heart_975.png
+142,99.53,B-,132.28,15.11,No,Moderate,Moderate,High,37.2,1014.36,120.92,heart_1004.png
+101,97.01,O-,88.72,14.88,Yes,Low,Very low,Moderate,37.64,784.09,101.25,heart_685.png
+82,106.99,O-,148.25,13.55,No,Very low,High,Very high,36.82,469.4,114.94,heart_949.png
+97,84.61,A+,103.83,14.91,No,Low,Low,High,36.7,472.72,97.47,heart_686.png
+173,103.76,AB+,81.11,14.73,Yes,Low,Very low,Moderate,36.78,747.22,100.7,heart_132.png
+197,101.14,O+,120.44,15.47,Yes,Very low,Moderate,High,37.6,265.99,105.58,heart_1055.png
+91,88.18,O+,109.26,14.79,Yes,Low,Low,Very high,36.77,517.03,95.99,heart_825.png
+49,95.05,O+,132.89,13.61,Yes,High,Moderate,High,37.26,872.43,80.75,heart_922.png
+52,86.98,AB+,136.59,14.69,Yes,Low,Moderate,High,36.45,804.79,111.26,heart_151.png
+134,101.49,A+,92.54,15.27,Yes,Low,High,Very low,37.18,747.32,108.8,heart_392.png
+148,94.41,A+,93.61,16.0,No,Very low,High,Moderate,37.21,980.9,96.69,heart_357.png
+162,117.69,A-,133.8,15.78,No,Low,Very high,High,37.2,875.15,123.04,heart_141.png
+152,107.1,A+,161.37,14.24,Yes,Moderate,High,Very high,37.31,587.37,119.87,heart_525.png
+54,99.71,A-,133.76,15.41,Yes,Very low,Very high,Very high,37.15,1104.04,115.59,heart_1182.png
+117,99.42,O+,117.43,14.23,Yes,Low,Very high,High,37.61,953.25,116.29,heart_550.png
+112,82.2,AB+,85.58,13.85,Yes,High,Low,High,36.52,871.44,92.78,heart_710.png
+50,85.35,AB+,93.91,13.57,No,Low,High,Moderate,37.69,629.77,101.88,heart_812.png
+140,102.16,A+,150.69,13.77,No,Low,High,Very high,38.13,550.86,113.68,heart_379.png
+90,88.15,A+,93.02,14.85,Yes,Moderate,Very low,High,36.84,985.61,90.35,heart_942.png
+112,105.2,A+,118.3,12.48,Yes,Very low,High,Very high,37.59,624.21,85.79,heart_1196.png
+20,84.31,B+,56.97,15.0,Yes,High,Moderate,Very low,36.59,884.74,98.88,heart_24.png
+139,91.32,O+,77.58,15.08,Yes,Moderate,Very high,Low,36.6,666.25,109.38,heart_740.png
+91,93.49,A+,120.43,15.89,No,Moderate,Very high,Very high,37.41,1149.15,99.36,heart_492.png
+103,115.5,O-,140.47,11.64,No,Low,Very high,High,37.49,778.86,128.65,heart_534.png
+20,89.46,O+,124.37,15.48,No,Moderate,Moderate,High,36.74,877.64,99.81,heart_1000.png
+100,86.99,O+,68.01,14.23,Yes,Very high,High,Very low,36.49,915.69,82.97,heart_771.png
+206,106.61,AB-,114.65,14.92,No,Very low,Low,Moderate,36.88,292.96,115.2,heart_1.png
+223,111.75,A+,91.35,14.08,No,High,Moderate,Low,36.65,675.56,109.22,heart_272.png
+120,92.28,O+,96.52,15.24,Yes,Low,Moderate,High,36.82,531.45,80.98,heart_913.png
+100,93.1,B+,143.05,14.87,No,Low,Very low,High,36.38,989.86,112.08,heart_398.png
+217,109.26,O+,133.25,15.69,No,Low,Very low,High,36.92,543.97,122.75,heart_548.png
+138,102.71,A+,104.94,16.11,No,Low,Moderate,Moderate,36.9,652.86,90.26,heart_1187.png
+166,99.09,B+,86.77,13.25,Yes,Very low,Moderate,Low,37.43,332.22,108.91,heart_131.png
+85,97.91,A+,93.68,15.0,Yes,Low,Low,Moderate,37.39,741.43,108.73,heart_1167.png
+95,100.22,B-,76.5,14.75,Yes,Very high,Very high,Very low,37.34,1298.02,73.55,heart_19.png
+148,88.69,A-,87.48,14.44,Yes,Low,Very low,Moderate,37.29,757.95,105.32,heart_770.png
+122,92.36,O+,130.7,13.9,No,Moderate,High,Very high,37.55,709.6,115.92,heart_283.png
+131,105.28,O+,146.78,15.3,Yes,Very low,High,Very high,36.11,654.14,109.21,heart_444.png
+77,94.19,AB+,112.76,13.51,No,Moderate,High,High,37.01,866.96,95.53,heart_778.png
+127,93.73,A+,111.67,16.87,No,Very low,High,Very high,36.73,897.55,103.65,heart_71.png
+131,88.57,A+,121.2,13.73,No,Low,Low,Very high,38.1,410.42,114.14,heart_1183.png
+85,84.21,A+,84.14,14.77,No,High,Moderate,Moderate,36.92,1058.27,102.24,heart_482.png
+150,99.12,A+,94.73,13.16,No,Very low,Very high,Moderate,35.95,352.09,103.97,heart_923.png
+156,100.72,O+,134.94,14.62,Yes,Low,Low,High,36.26,621.87,113.48,heart_247.png
+223,116.99,A+,115.69,12.31,Yes,Very low,Very high,High,37.17,246.51,110.82,heart_836.png
+157,93.29,A+,83.7,13.17,No,Very low,High,Moderate,36.2,496.33,97.53,heart_981.png
+150,74.49,O+,98.9,13.98,No,Moderate,Low,High,36.77,442.36,95.75,heart_673.png
+176,107.62,O+,150.75,13.21,Yes,Very low,Very high,Very high,37.19,825.31,116.02,heart_892.png
+70,86.7,O+,130.51,14.55,Yes,Low,Very low,Very high,37.62,845.82,85.68,heart_457.png
+187,97.01,O+,59.99,15.4,No,High,Very low,Very low,36.78,709.43,95.77,heart_187.png
+87,98.68,O+,120.51,15.84,No,Very low,Moderate,Very high,36.98,779.8,103.24,heart_1113.png
+134,85.93,B-,89.01,13.47,Yes,Moderate,Very low,Moderate,36.99,818.82,74.17,heart_1176.png
+162,96.03,B-,111.62,14.15,Yes,Moderate,Very high,High,36.66,855.75,104.75,heart_611.png
+89,97.48,O+,87.38,13.03,No,Low,Very high,Very high,36.08,491.37,95.09,heart_879.png
+143,88.07,O+,125.24,16.33,Yes,Moderate,Moderate,Moderate,37.82,919.32,116.7,heart_1037.png
