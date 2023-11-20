@@ -5,20 +5,28 @@ Created on Sat Nov 18 12:08:04 2023
 @author: Alexis C. SPYROU
 """
 import pandas as pd
+import os
 
 # import sklearn as sk
 # import numpy as np
 
 # 0. Define Inputs and outputs
 # 0.1 Inputs
-IpPath = "data/"
+IpPath = "../data/"
 Fl1_nm = "Xtab1.csv"
 Fl2_nm = "Y1.csv"
 Fl3_nm = "Ximg1.csv"
 
 # 0.1 Output
-OpPath = "data/staging/"
+OpPath = "../data/staging/"
 OpFl_nm = "Xtab1_Cl.csv"
+
+# checking if the directory demo_folder
+# exist or not.
+if not os.path.exists(OpPath):
+    # if the demo_folder directory is not present
+    # then create it.
+    os.makedirs(OpPath)
 
 # Import Files
 Data_Set = pd.read_csv(IpPath + Fl1_nm, sep=",", header=0)
