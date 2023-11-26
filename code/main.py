@@ -6,6 +6,14 @@ from feature_selection.embedded import *
 
 
 def split_train_validation_test(data, test_ratio, validation_ratio):
+    """
+    Split the data into a training set, a validation set and a test set.
+    While doing all this, also normalize the data.
+    :param data: data to split, note that the data can only contain numerical values
+    :param test_ratio: test set size as a ratio of the total data size
+    :param validation_ratio: validation set size as a ratio of the total data size
+    :return: 3 X sets (training, validation, test) and 3 targets (training, validation, test)
+    """
     X = data.drop("target", axis=1)
     y = data["target"].copy()
     x_train_val, x_test, y_train_val, y_test = train_test_split(X, y, test_size=test_ratio)
@@ -35,6 +43,11 @@ def split_train_validation_test(data, test_ratio, validation_ratio):
 
 
 def remove_unused_fields(data):
+    """
+    Remove the fields that are not used in the model
+    :param data: data to clean
+    :return: cleaned data
+    """
     FieldToKeep = ['Age_Std', 'BloodPr_Std', 'Cholesterol_Std',
                    'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
                    'sarsaparilla_num', 'smurfberryLiquor_num', 'smurfinDonuts_num',
@@ -46,6 +59,17 @@ def remove_unused_fields(data):
 
 
 def evaluate_feature_selection(x_train, x_test, y_train, y_test, mlp_model, selected_features):
+    """
+    Train and evaluate a model using the given features.
+    The evaluation is done using the RMSE metric.
+    :param x_train: training data
+    :param x_test: test data
+    :param y_train: training target
+    :param y_test: test target
+    :param mlp_model: model to train and evaluate
+    :param selected_features: features to use for the training
+    :return: None
+    """
     # train model
     mlp_model.fit(x_train[selected_features].values, y_train.values.ravel())
 
@@ -61,14 +85,17 @@ def evaluate_feature_selection(x_train, x_test, y_train, y_test, mlp_model, sele
 
 
 if __name__ == '__main__':
+    # Constants
     TEST_RATIO = 0.1
     VALIDATION_RATIO = 0.11
 
+    # load data and set seed in order to have reproducible results
     np.random.seed(123)
     staging_path = "../data/staging/"
     data_file = "Xtab1_Y1_cleaned.csv"
     cleaned_set = pd.read_csv(staging_path + data_file, sep=",", header=0)
 
+    # split data into training, validation and test sets
     (training_set,
      validation_set,
      test_set,
@@ -77,12 +104,12 @@ if __name__ == '__main__':
      test_target) = split_train_validation_test(cleaned_set, TEST_RATIO, VALIDATION_RATIO)
     print(training_target)
 
-    print(training_set.shape)
-    print(validation_set.shape)
-    print(test_set.shape)
-    print(training_target.shape)
-    print(validation_target.shape)
-    print(test_target.shape)
+    # print(training_set.shape)
+    # print(validation_set.shape)
+    # print(test_set.shape)
+    # print(training_target.shape)
+    # print(validation_target.shape)
+    # print(test_target.shape)
 
     model = MLPRegressor(hidden_layer_sizes=32, max_iter=160)
 
@@ -93,12 +120,12 @@ if __name__ == '__main__':
 
     # WRAPPER methods
     # selected_features = forward_search(training_set, training_target, 10)
-    # selected_features = backward_search(training_set, training_target, 10)
+    selected_features = backward_search(training_set, training_target, 10)
 
     # EMBEDDED methods
-    selected_features = decision_tree_feature_importance(
-        training_set, training_target, validation_set, validation_target, 8, decision_tree_depth=20
-    )
+    # selected_features = decision_tree_feature_importance(
+    #     training_set, training_target, validation_set, validation_target, 8, decision_tree_depth=20
+    # )
 
     print(selected_features)
     evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)
