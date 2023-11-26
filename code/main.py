@@ -48,14 +48,14 @@ def remove_unused_fields(data):
     :param data: data to clean
     :return: cleaned data
     """
-    FieldToKeep = ['Age_Std', 'BloodPr_Std', 'Cholesterol_Std',
+    field_to_keep = ['Age_Std', 'BloodPr_Std', 'Cholesterol_Std',
                    'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
                    'sarsaparilla_num', 'smurfberryLiquor_num', 'smurfinDonuts_num',
                    'physicalActivity_num', 'IsRhesusPositive',
                    'IsBlGrp_A', 'IsBlGrp_B', 'IsBlGrp_O', 'IsBlGrp_AB'
                    ]
 
-    return data[FieldToKeep].copy()
+    return data[field_to_keep].copy()
 
 
 def evaluate_feature_selection(x_train, x_test, y_train, y_test, mlp_model, selected_features):
