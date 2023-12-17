@@ -1,14 +1,23 @@
-from sklearn.model_selection import train_test_split
-import code.scoring.scoring as scoring
+from sklearn import linear_model
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.neural_network import MLPRegressor
+
 from code.cleaning.cleaning import mean_norm
+import pandas as pd
+
+from code.feature_selection.embedded import decision_tree_feature_importance
+from code.feature_selection.filter import correlation_filter, mutual_info_filter, max_relevance_min_redundancy_filter
+from code.feature_selection.wrapper import forward_search, backward_search
+import code.scoring.scoring as scoring
 
 
-def split_train_validation_test(data, test_ratio):
+def split_train_validation_test(data, test_ratio, image_path=None):
     """
     Split the data into a training set, a validation set and a test set.
     While doing all this, also normalize the data.
     :param data: data to split, note that the data can only contain numerical values
     :param test_ratio: test set size as a ratio of the total data size
+    :param image_path: path to the image features file
     :return: 3 X sets (training, validation, test) and 3 targets (training, validation, test)
     """
     X = data.drop("target", axis=1)
@@ -31,6 +40,8 @@ def split_train_validation_test(data, test_ratio):
     x_test['Testosterone_Std'] = mean_norm(x_test['testosterone'], x_train['testosterone'])
     x_test['Weight_Std'] = mean_norm(x_test['weight'], x_train['weight'])
 
+    if image_path is not None:
+        x_train, x_test = add_image_features(image_path, x_train, x_test)
     # x_train, x_validation, y_train, y_validation = train_test_split(x_train_val, y_train, test_size=validation_ratio)
     x_train = remove_unused_fields(x_train)
     # x_validation = remove_unused_fields(x_validation)
@@ -46,11 +57,81 @@ def remove_unused_fields(data):
     :return: cleaned data
     """
     field_to_keep = [
-        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std',
-        'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
-        'sarsaparilla_num', 'smurfberryLiquor_num', 'smurfinDonuts_num',
-        'physicalActivity_num', 'IsRhesusPositive',
-        'IsBlGrp_A', 'IsBlGrp_B', 'IsBlGrp_O', 'IsBlGrp_AB'
+        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std',
+        'Weight_Std', 'sarsaparilla_num', 'smurfberryLiquor_num', 'smurfinDonuts_num', 'physicalActivity_num',
+        'IsRhesusPositive', 'IsBlGrp_A', 'IsBlGrp_B', 'IsBlGrp_O', 'IsBlGrp_AB', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+        'h7', 'h8'
     ]
 
     return data[field_to_keep].copy()
+
+
+def add_image_features(path, training_data, test_data):
+    """
+    Add image features to the training and test data
+    :param path: path to the image features file
+    :param training_data: training data
+    :param test_data: test data
+    :return: training and test data with the image features
+    """
+    image_features = pd.read_csv(path, sep=",", header=0)
+
+    # add image features having the same image_filename as the training data
+    training_data = training_data.merge(image_features, on="img_filename", how="left")
+    test_data = test_data.merge(image_features, on="img_filename", how="left")
+
+    return training_data, test_data
+
+
+def return_best_features(training_set, training_target, test_set, test_target):
+    """
+    Return the best features set
+    :param training_set: training data
+    :param training_target: training target
+    :param test_set: test data
+    :param test_target: test target
+    :return: best features set
+    """
+    # 2.2 Set Features
+    model = MLPRegressor(hidden_layer_sizes=(16, 16), max_iter=200)
+    features = [
+        correlation_filter(training_set, training_target, 10),
+        mutual_info_filter(training_set, training_target, 10),
+        max_relevance_min_redundancy_filter(training_set, training_target, 10),
+        forward_search(training_set, training_target, 10, model=model),
+        backward_search(training_set, training_target, 10, model=model),
+        decision_tree_feature_importance(
+            training_set, training_target, test_set, test_target, 10, decision_tree_depth=20
+        )
+    ]
+
+    # 3.2 Cross validation
+    # 3.2.1 Test Features sets
+    scores = []
+    lm0 = linear_model.LinearRegression()
+    # print('Cross validation Score')
+    for feature_set in features:
+        scores.append(
+            cross_val_score(lm0, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean())
+        # print(scores[-1])
+
+    best_score = min(scores)
+    best_index = scores.index(best_score)
+
+    # 3.2.2 Test Features of best set
+    selected_features = []
+    # transform above code into loop
+    for i in range(1, len(features[best_index])):
+        selected_features.append(features[best_index][0:-i])
+
+    ScoresList5 = []
+    for feature_set in selected_features:
+        # print(X_TrainVal['Target'])
+        ScoresList5.append(
+            cross_val_score(lm0, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean()
+        )
+
+    best_score = min(ScoresList5)
+    best_index = ScoresList5.index(best_score)
+
+    return selected_features[best_index]
