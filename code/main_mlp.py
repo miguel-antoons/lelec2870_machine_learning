@@ -52,4 +52,4 @@ if __name__ == '__main__':
     model = MLPRegressor(**grid.best_params_)
 
     print(selected_features)
-    utils.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)
+    scoring.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)

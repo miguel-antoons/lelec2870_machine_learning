@@ -98,6 +98,6 @@ if __name__ == '__main__':
     print(ScoresList5)
 
     model = linear_model.LinearRegression()
-    utils.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, MyFeat[1])
+    scoring.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, MyFeat[1])
 
     # --> Best Features selection : MyFeat[1] = ['Weight_Std', 'BloodPr_Std', 'Cholesterol_Std', 'physicalActivity_num', 'Testosterone_Std', 'smurfinDonuts_num', 'Age_Std', 'sarsaparilla_num', 'smurfberryLiquor_num']
