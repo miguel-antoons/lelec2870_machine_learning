@@ -1,11 +1,15 @@
-import numpy as np
-import pandas as pd
-from sklearn.model_selection import KFold
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec 14 10:19:48 2023
 
-from sklearn.neighbors import KNeighborsRegressor
+@author: skida
+"""
+from sklearn.svm import SVR
+from sklearn.model_selection import KFold
 
 import utils.utils as utils
 import scoring.scoring as scoring
+import pandas as pd
 import model_selection.model_selection as m_select
 
 
@@ -26,22 +30,19 @@ if __name__ == '__main__':
      training_target,
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
-    selected_features = utils.return_best_features(training_set, training_target, test_set, test_target)
-    model = KNeighborsRegressor()
+    model = SVR()
     k_fold = KFold(n_splits=8)
     param_grid = {
-        "n_neighbors": [3, 5, 7, 9, 11, 13, 15, 17, 19],
-        "weights": ["uniform", "distance"],
-        "algorithm": ["auto"],
-        "leaf_size": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
-        "p": [1, 2],
-        "metric": ["minkowski", "euclidean", "manhattan"]
+        "kernel": ["rbf", "poly", "sigmoid", "laplacian", "chi2"],
+        "gamma": ["scale", "auto"],
+        "degree": [2, 3, 4, 5],
+        "coef0": [0.1, 0.5, 1, 2, 5, 10, 20, 50],
+        "C": [0.1, 0.5, 1, 2, 5, 10, 20],
+        "epsilon": [0.1, 0.5, 1, 2, 5, 10, 20]
     }
-    grid = m_select.perform_grid_search(
-        model, param_grid, scoring.rmse, k_fold, training_set[selected_features], training_target, n_jobs=-1
-    )
+    grid = m_select.perform_grid_search(model, param_grid, scoring.rmse, k_fold, training_set, training_target, n_jobs=-1)
     print(grid.best_params_)
-    model = KNeighborsRegressor(**grid.best_params_)
-    # selected_features = utils.return_best_features(training_set, training_target, test_set, test_target, model)
+    model = SVR(**grid.best_params_)
+    selected_features = utils.return_best_features(training_set, training_target, test_set, test_target, model)
 
     scoring.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)
