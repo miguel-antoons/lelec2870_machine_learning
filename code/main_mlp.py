@@ -1,6 +1,7 @@
 from sklearn.model_selection import KFold
 from sklearn.neural_network import MLPRegressor
 import numpy as np
+import pandas as pd
 
 import code.utils.utils as utils
 import scoring.scoring as scoring
