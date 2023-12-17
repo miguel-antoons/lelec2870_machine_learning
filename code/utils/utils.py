@@ -58,9 +58,7 @@ def remove_unused_fields(data):
     """
     field_to_keep = [
         'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std',
-        'Weight_Std', 'sarsaparilla_num', 'smurfberryLiquor_num', 'smurfinDonuts_num', 'physicalActivity_num',
-        'IsRhesusPositive', 'IsBlGrp_A', 'IsBlGrp_B', 'IsBlGrp_O', 'IsBlGrp_AB', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
-        'h7', 'h8'
+        'Weight_Std', 'smurfberryLiquor_num', 'physicalActivity_num', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'h8'
     ]
 
     return data[field_to_keep].copy()
@@ -83,17 +81,19 @@ def add_image_features(path, training_data, test_data):
     return training_data, test_data
 
 
-def return_best_features(training_set, training_target, test_set, test_target):
+def return_best_features(training_set, training_target, test_set, test_target, model=None):
     """
     Return the best features set
     :param training_set: training data
     :param training_target: training target
     :param test_set: test data
     :param test_target: test target
+    :param model: model to use
     :return: best features set
     """
     # 2.2 Set Features
-    model = MLPRegressor(hidden_layer_sizes=(16, 16), max_iter=200)
+    if model is None:
+        model = MLPRegressor(hidden_layer_sizes=(16, 16), max_iter=200)
     features = [
         correlation_filter(training_set, training_target, 10),
         mutual_info_filter(training_set, training_target, 10),

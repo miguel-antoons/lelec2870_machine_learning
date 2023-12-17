@@ -33,4 +33,4 @@ def evaluate_feature_selection(x_train, x_test, y_train, y_test, mlp_model, sele
     for i, feature in enumerate(selected_features):
         print(f"- {feature}")
     print("----------------------------------")
-    print(f"RMSE basic MLP: {error:5.3f}")
+    print(f"RMSE of your model: {error:5.3f}")
