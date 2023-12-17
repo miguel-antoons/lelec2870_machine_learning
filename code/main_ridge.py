@@ -33,11 +33,11 @@ if __name__ == '__main__':
     model = KernelRidge()
     k_fold = KFold(n_splits=8)
     param_grid = {
-        "alpha": [0.1, 0.5, 1, 2, 5, 10, 20, 50, 100],
-        "kernel": ["rbf", "poly", "laplacian", "chi2"],
-        "gamma": [0.1, 0.5, 1, 2, 5, 10, 20, 50, 100],
+        "alpha": [10, 20, 50, 100, 150],
+        "kernel": ["poly"],
+        "gamma": [0.001, 0.05, 0.1, 0.5, 1, 2, 5],
         "degree": [2, 3, 4, 5],
-        "coef0": [0.1, 0.5, 1, 2, 5, 10, 20, 50, 100]
+        "coef0": [10, 20, 50, 100, 150, 200, 250]
     }
     grid = m_select.perform_grid_search(model, param_grid, scoring.rmse, k_fold, training_set, training_target, n_jobs=-1)
     print(grid.best_params_)
