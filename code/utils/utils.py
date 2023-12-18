@@ -2,13 +2,13 @@ from sklearn import linear_model
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.neural_network import MLPRegressor
 
-from code.cleaning.cleaning import mean_norm
+from cleaning.cleaning import mean_norm
 import pandas as pd
 
-from code.feature_selection.embedded import decision_tree_feature_importance
-from code.feature_selection.filter import correlation_filter, mutual_info_filter, max_relevance_min_redundancy_filter
-from code.feature_selection.wrapper import forward_search, backward_search
-import code.scoring.scoring as scoring
+from feature_selection.embedded import decision_tree_feature_importance
+from feature_selection.filter import correlation_filter, mutual_info_filter, max_relevance_min_redundancy_filter
+from feature_selection.wrapper import forward_search, backward_search
+import scoring.scoring as scoring
 
 
 def split_train_validation_test(data, test_ratio, image_path=None):
@@ -58,7 +58,7 @@ def remove_unused_fields(data):
     """
     field_to_keep = [
         'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std',
-        'Weight_Std', 'smurfberryLiquor_num', 'physicalActivity_num', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'h8'
+        'Weight_Std', 'smurfberryLiquor_num', 'physicalActivity_num', 'h1', 'h2', 'h3', 'h4', 'h5', 'h7', 'h8'
     ]
 
     return data[field_to_keep].copy()
@@ -91,12 +91,13 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     :param model: model to use
     :return: best features set
     """
+    n_features = training_set.shape[1]
+    print(f"Number of features: {n_features}")
     # 2.2 Set Features
     if model is None:
         model = MLPRegressor(hidden_layer_sizes=(16, 16), max_iter=200)
     features = [
         correlation_filter(training_set, training_target, 10),
-        mutual_info_filter(training_set, training_target, 10),
         max_relevance_min_redundancy_filter(training_set, training_target, 10),
         forward_search(training_set, training_target, 10, model=model),
         backward_search(training_set, training_target, 10, model=model),

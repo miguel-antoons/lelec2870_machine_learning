@@ -80,13 +80,13 @@ def mean_norm(df_input, df_ref=None):
 if __name__ == '__main__':
     # 0. Define Inputs and outputs
     # 0.1 Inputs
-    IpPath = "../data/"
+    IpPath = "../../data/"
     Fl1_nm = "Xtab1.csv"
     Fl2_nm = "Y1.csv"
     Fl3_nm = "Ximg1.csv"
 
     # 0.1 Output
-    OpPath = "../data/staging/"
+    OpPath = "../../data/staging/"
     OpFl1_nm = "Xtab1_Y1_cleaned.csv"
 
     # create opPath if not exists
@@ -137,6 +137,8 @@ if __name__ == '__main__':
     Data_Set['IsBlGrp_AB'] = Data_Set['blood type'].apply(IsInBloodGrp, BloodTp="AB")
     Data_Set['Check_BldTp'] = Data_Set['IsBlGrp_A'] + Data_Set['IsBlGrp_B'] + Data_Set['IsBlGrp_O'] + Data_Set[
         'IsBlGrp_AB']
+    # print(Data_Set.describe(percentiles=[0.05, 0.95]).to_string())
+    # exit(0)
 
     # 1.1.3.2.3 Check Error Value
     if Data_Set['Check_BldTp'].min() < 1:
