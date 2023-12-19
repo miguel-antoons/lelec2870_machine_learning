@@ -18,15 +18,15 @@ def decision_tree_feature_importance(x_train, y_train, x_test, y_test, n_feature
     :return: a list of the n_features features with the highest importance according to a decision tree regressor
     """
     # Train decision tree
-    dt = DecisionTreeRegressor(max_depth=decision_tree_depth)
-    dt.fit(x_train, y_train)
+    model = DecisionTreeRegressor(max_depth=decision_tree_depth, random_state=1234)
+    model.fit(x_train, y_train)
 
     # Evaluate model
-    y_pred = dt.predict(x_test)
+    y_pred = model.predict(x_test)
     rmse = np.sqrt(np.mean((y_pred - y_test.values.ravel()) ** 2))
 
     # Retrieve feature importances
-    feature_importances = pd.Series(dt.feature_importances_, index=x_train.columns)
+    feature_importances = pd.Series(model.feature_importances_, index=x_train.columns)
 
     print("Feature importances:")
     for feature, feature_importance in feature_importances.items():

@@ -16,7 +16,7 @@ if __name__ == '__main__':
     TEST_RATIO = 0.1
 
     # load data and set seed in order to have reproducible results
-    # np.random.seed(123)
+    np.random.seed(1234)
     staging_path = "../data/staging/"
     data_file = "Xtab1_Y1_cleaned.csv"
     image_file = "MyXimg1.csv"
