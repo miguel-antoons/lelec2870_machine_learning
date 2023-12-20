@@ -23,6 +23,8 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     X = data.drop("target", axis=1)
     y = data["target"].copy()
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
+    if image_path is not None:
+        x_train, x_test = add_image_features(image_path, x_train, x_test)
 
     x_train['Age_Std'] = mean_norm(x_train['age'])
     x_train['BloodPr_Std'] = mean_norm(x_train['blood pressure'])
@@ -31,6 +33,15 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     x_train['Temperature_Std'] = mean_norm(x_train['temperature'])
     x_train['Testosterone_Std'] = mean_norm(x_train['testosterone'])
     x_train['Weight_Std'] = mean_norm(x_train['weight'])
+    x_train['h1_std'] = mean_norm(x_train['h1'])
+    x_train['h2_std'] = mean_norm(x_train['h2'])
+    x_train['h3_std'] = mean_norm(x_train['h3'])
+    x_train['h4_std'] = mean_norm(x_train['h4'])
+    x_train['h5_std'] = mean_norm(x_train['h5'])
+    x_train['h6_std'] = mean_norm(x_train['h6'])
+    x_train['h7_std'] = mean_norm(x_train['h7'])
+    x_train['h8_std'] = mean_norm(x_train['h8'])
+
 
     x_test['Age_Std'] = mean_norm(x_test['age'], x_train['age'])
     x_test['BloodPr_Std'] = mean_norm(x_test['blood pressure'], x_train['blood pressure'])
@@ -39,9 +50,15 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     x_test['Temperature_Std'] = mean_norm(x_test['temperature'], x_train['temperature'])
     x_test['Testosterone_Std'] = mean_norm(x_test['testosterone'], x_train['testosterone'])
     x_test['Weight_Std'] = mean_norm(x_test['weight'], x_train['weight'])
+    x_test['h1_std'] = mean_norm(x_test['h1'], x_train['h1'])
+    x_test['h2_std'] = mean_norm(x_test['h2'], x_train['h2'])
+    x_test['h3_std'] = mean_norm(x_test['h3'], x_train['h3'])
+    x_test['h4_std'] = mean_norm(x_test['h4'], x_train['h4'])
+    x_test['h5_std'] = mean_norm(x_test['h5'], x_train['h5'])
+    x_test['h6_std'] = mean_norm(x_test['h6'], x_train['h6'])
+    x_test['h7_std'] = mean_norm(x_test['h7'], x_train['h7'])
+    x_test['h8_std'] = mean_norm(x_test['h8'], x_train['h8'])
 
-    if image_path is not None:
-        x_train, x_test = add_image_features(image_path, x_train, x_test)
     # x_train, x_validation, y_train, y_validation = train_test_split(x_train_val, y_train, test_size=validation_ratio)
     x_train = remove_unused_fields(x_train)
     # x_validation = remove_unused_fields(x_validation)
