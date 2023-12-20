@@ -36,7 +36,7 @@ if __name__ == '__main__':
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
     # print correlation with target
-    print(training_set.corrwith(training_target))
+    # print(training_set.corrwith(training_target))
 
     train_corr = training_set.corr()
     # position the heatmp in the center of the graph
@@ -46,14 +46,12 @@ if __name__ == '__main__':
     figure.savefig("../graphs/heatmap.png", bbox_inches='tight', dpi=300)
 
     # selected_features = utils.return_best_features(training_set, training_target, test_set, test_target)
-    mi = pd.Series(mutual_info(training_set.values, training_target.values.ravel()), index=training_set.columns)
-    print(mi)
 
     n_features = training_set.shape[1] - 1
     # n_features = 10
 
     # 2.2 Set Features
-    model = MLPRegressor(hidden_layer_sizes=(100, 100, 100), max_iter=256)
+    model = MLPRegressor(hidden_layer_sizes=(8, 16, 8), max_iter=256)
     # model = linear_model.LinearRegression()
     features = [
         max_relevance_min_redundancy_filter(training_set.copy(), training_target.copy(), n_features),
@@ -81,12 +79,13 @@ if __name__ == '__main__':
     # 3.2.2 Test Features of best set
     selected_features = []
     # transform above code into loop
+    # model = MLPRegressor(hidden_layer_sizes=(8, 16, 8), max_iter=256)
     model = linear_model.LinearRegression()
     for feature_set in features:
-        selected_features.append([(cross_val_score(linear_model.LinearRegression(), training_set[feature_set].copy(), training_target.copy(), cv=8, scoring=scoring.rmse_score).mean(), len(feature_set))])
+        selected_features.append([(cross_val_score(model, training_set[feature_set].copy(), training_target.copy(), cv=8, scoring=scoring.rmse_score).mean(), len(feature_set))])
         for i in range(1, len(feature_set)):
             selected_features[-1].append((
-                cross_val_score(linear_model.LinearRegression(), training_set[feature_set[0:-i]].copy(), training_target.copy(), cv=8, scoring=scoring.rmse_score).mean(),
+                cross_val_score(model, training_set[feature_set[0:-i]].copy(), training_target.copy(), cv=8, scoring=scoring.rmse_score).mean(),
                 len(feature_set) - i
              ))
 

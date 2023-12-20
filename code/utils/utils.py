@@ -74,8 +74,8 @@ def remove_unused_fields(data):
     :return: cleaned data
     """
     field_to_keep = [
-        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std',
-        'Weight_Std', 'smurfberryLiquor_num', 'physicalActivity_num', 'h1', 'h2', 'h3', 'h4', 'h5', 'h7', 'h8'
+        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
+        'smurfberryLiquor_num', 'physicalActivity_num', 'h1_std', 'h3_std', 'h4_std', 'h7_std'
     ]
 
     return data[field_to_keep].copy()
@@ -112,9 +112,9 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     if model is None:
         model = MLPRegressor(hidden_layer_sizes=(100, 100, 100), max_iter=256)
     features = [
-        max_relevance_min_redundancy_filter(training_set, training_target, 10),
-        forward_search(training_set, training_target, 10, model=model),
-        backward_search(training_set, training_target, 10, model=model),
+        # max_relevance_min_redundancy_filter(training_set, training_target, 10),
+        # forward_search(training_set, training_target, 10, model=model),
+        # backward_search(training_set, training_target, 10, model=model),
         decision_tree_feature_importance(
             training_set, training_target, test_set, test_target, 10, decision_tree_depth=20
         )
