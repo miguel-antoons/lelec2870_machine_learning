@@ -2,13 +2,13 @@ from sklearn import linear_model
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.neural_network import MLPRegressor
 
-from cleaning.cleaning import mean_norm
+from code.cleaning.cleaning import mean_norm
 import pandas as pd
 
-from feature_selection.embedded import decision_tree_feature_importance
-from feature_selection.filter import correlation_filter, mutual_info_filter, max_relevance_min_redundancy_filter
-from feature_selection.wrapper import forward_search, backward_search
-import scoring.scoring as scoring
+from code.feature_selection.embedded import decision_tree_feature_importance
+from code.feature_selection.filter import max_relevance_min_redundancy_filter
+from code.feature_selection.wrapper import forward_search, backward_search
+import code.scoring.scoring as scoring
 
 
 def split_train_validation_test(data, test_ratio, image_path=None):
@@ -108,13 +108,10 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     :param model: model to use
     :return: best features set
     """
-    n_features = training_set.shape[1]
-    print(f"Number of features: {n_features}")
     # 2.2 Set Features
     if model is None:
-        model = MLPRegressor(hidden_layer_sizes=(16, 16), max_iter=200)
+        model = MLPRegressor(hidden_layer_sizes=(100, 100, 100), max_iter=256)
     features = [
-        correlation_filter(training_set, training_target, 10),
         max_relevance_min_redundancy_filter(training_set, training_target, 10),
         forward_search(training_set, training_target, 10, model=model),
         backward_search(training_set, training_target, 10, model=model),
@@ -126,11 +123,12 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     # 3.2 Cross validation
     # 3.2.1 Test Features sets
     scores = []
-    lm0 = linear_model.LinearRegression()
+    model = linear_model.LinearRegression()
     # print('Cross validation Score')
     for feature_set in features:
         scores.append(
-            cross_val_score(lm0, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean())
+            cross_val_score(model, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean()
+        )
         # print(scores[-1])
 
     best_score = min(scores)
@@ -146,10 +144,11 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     for feature_set in selected_features:
         # print(X_TrainVal['Target'])
         ScoresList5.append(
-            cross_val_score(lm0, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean()
+            cross_val_score(model, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean()
         )
 
     best_score = min(ScoresList5)
     best_index = ScoresList5.index(best_score)
+    # print(ScoresList5)
 
     return selected_features[best_index]
