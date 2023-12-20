@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPRegressor
+from sklearn.feature_selection import mutual_info_regression as mutual_info
+
 
 import utils.utils as utils
 import scoring.scoring as scoring
@@ -33,6 +35,9 @@ if __name__ == '__main__':
      training_target,
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
+    # print correlation with target
+    print(training_set.corrwith(training_target))
+
     train_corr = training_set.corr()
     # position the heatmp in the center of the graph
     _, axis = plt.subplots(figsize=(14, 12))
@@ -41,13 +46,15 @@ if __name__ == '__main__':
     figure.savefig("../graphs/heatmap.png", bbox_inches='tight', dpi=300)
 
     # selected_features = utils.return_best_features(training_set, training_target, test_set, test_target)
+    mi = pd.Series(mutual_info(training_set.values, training_target.values.ravel()), index=training_set.columns)
+    print(mi)
 
     n_features = training_set.shape[1] - 1
     # n_features = 10
 
     # 2.2 Set Features
-    # model = MLPRegressor(hidden_layer_sizes=(100, 100, 100), max_iter=256)
-    model = linear_model.LinearRegression()
+    model = MLPRegressor(hidden_layer_sizes=(100, 100, 100), max_iter=256)
+    # model = linear_model.LinearRegression()
     features = [
         max_relevance_min_redundancy_filter(training_set.copy(), training_target.copy(), n_features),
         forward_search(training_set.copy(), training_target.copy(), n_features, model=model),
