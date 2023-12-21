@@ -34,7 +34,9 @@ if __name__ == '__main__':
      training_target,
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
+    # get all the features that are important for prediction
     selected_features = utils.return_best_features(training_set, training_target, test_set, test_target)
+    # perform an grid search to find the best hyperparameters
     model = KernelRidge()
     k_fold = KFold(n_splits=8)
     param_grid = {
@@ -55,17 +57,21 @@ if __name__ == '__main__':
     # predict = False
     if predict:
         prediction_file = "Xtab2_cleaned.csv"
+        # get the cleaned train and prediction data
         cleaned_train = pd.read_csv(staging_path + data_file, sep=",", header=0)
         cleaned_predict = pd.read_csv(staging_path + prediction_file, sep=",", header=0)
 
+        # normalize all the data
         x_train, y_train, x_prediction = utils.prepare_data(cleaned_train, cleaned_predict)
 
         selected_features = ['BloodPr_Std', 'Weight_Std', 'h5_std', 'Cholesterol_Std', 'h7_std',
                              'physicalActivity_num']
         model = KernelRidge(**{'alpha': 20, 'coef0': 100, 'degree': 4, 'gamma': 0.001, 'kernel': 'poly'})
 
+        # train the model
         model.fit(x_train[selected_features], y_train.values.ravel())
 
+        # predict the target values
         y_prediction = model.predict(x_prediction[selected_features])
 
         print(y_prediction)

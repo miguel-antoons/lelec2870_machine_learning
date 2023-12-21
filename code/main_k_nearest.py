@@ -30,7 +30,9 @@ if __name__ == '__main__':
      training_target,
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
+    # get all the features that are important for prediction
     selected_features = utils.return_best_features(training_set, training_target, test_set, test_target, model=LinearRegression())
+    # perform an grid search to find the best hyperparameters
     model = KNeighborsRegressor()
     k_fold = KFold(n_splits=8)
     param_grid = {
@@ -49,6 +51,5 @@ if __name__ == '__main__':
     # model = KNeighborsRegressor(**{
     #     'algorithm': 'auto', 'leaf_size': 10, 'metric': 'minkowski', 'n_neighbors': 11, 'p': 1, 'weights': 'distance'
     # })
-    # selected_features = utils.return_best_features(training_set, training_target, test_set, test_target, model)
 
     scoring.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)

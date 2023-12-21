@@ -26,6 +26,7 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     if image_path is not None:
         x_train, x_test = add_image_features(image_path, x_train, x_test)
 
+    # normalize training data
     x_train['Age_Std'] = mean_norm(x_train['age'])
     x_train['BloodPr_Std'] = mean_norm(x_train['blood pressure'])
     x_train['Cholesterol_Std'] = mean_norm(x_train['cholesterol'])
@@ -42,7 +43,7 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     x_train['h7_std'] = mean_norm(x_train['h7'])
     x_train['h8_std'] = mean_norm(x_train['h8'])
 
-
+    # normalize test data with mean and std of training data
     x_test['Age_Std'] = mean_norm(x_test['age'], x_train['age'])
     x_test['BloodPr_Std'] = mean_norm(x_test['blood pressure'], x_train['blood pressure'])
     x_test['Cholesterol_Std'] = mean_norm(x_test['cholesterol'], x_train['cholesterol'])
@@ -84,6 +85,7 @@ def prepare_data(train_data, prediction_data):
     # add image features having the same image_filename as the training data
     x_prediction = x_prediction.merge(image_features, on="img_filename", how="left")
 
+    # normalize all the training data
     x_train['Age_Std'] = mean_norm(x_train['age'])
     x_train['BloodPr_Std'] = mean_norm(x_train['blood pressure'])
     x_train['Cholesterol_Std'] = mean_norm(x_train['cholesterol'])
@@ -100,6 +102,7 @@ def prepare_data(train_data, prediction_data):
     x_train['h7_std'] = mean_norm(x_train['h7'])
     x_train['h8_std'] = mean_norm(x_train['h8'])
 
+    # normalize the data to predict with mean and std of training data
     x_prediction['Age_Std'] = mean_norm(x_prediction['age'], x_train['age'])
     x_prediction['BloodPr_Std'] = mean_norm(x_prediction['blood pressure'], x_train['blood pressure'])
     x_prediction['Cholesterol_Std'] = mean_norm(x_prediction['cholesterol'], x_train['cholesterol'])
@@ -191,11 +194,12 @@ def return_best_features(training_set, training_target, test_set, test_target, m
 
     # 3.2.2 Test Features of best set
     selected_features = []
-    # transform above code into loop
+    # select different number of features
     for i in range(1, len(features[best_index])):
         selected_features.append(features[best_index][0:-i])
 
     ScoresList5 = []
+    # calculate the score for each set of features
     for feature_set in selected_features:
         # print(X_TrainVal['Target'])
         ScoresList5.append(
@@ -206,4 +210,5 @@ def return_best_features(training_set, training_target, test_set, test_target, m
     best_index = ScoresList5.index(best_score)
     # print(ScoresList5)
 
+    # return the best set of features
     return selected_features[best_index]

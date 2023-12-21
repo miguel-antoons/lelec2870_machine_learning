@@ -1,3 +1,8 @@
+"""
+* this file only contains code for generating graphs
+* The machine learning code for the different models can be found
+* in all the other main_* files in the code directory
+"""
 import random
 
 import seaborn as sns
@@ -52,7 +57,7 @@ if __name__ == '__main__':
     plt.tight_layout()
     plt.show()
     figure.savefig("../graphs/rmse.png", bbox_inches='tight', dpi=300)
-    exit(0)
+    # exit(0)
 
 
     # load data and set seed in order to have reproducible results
@@ -70,10 +75,10 @@ if __name__ == '__main__':
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
     # print correlation with target
-    # print(training_set.corrwith(training_target))
+    print(training_set.corrwith(training_target))
     # exit(0)
     train_corr = training_set.corr()
-    # position the heatmp in the center of the graph
+    # generate heatmap of correlation matrix
     _, axis = plt.subplots(figsize=(14, 12))
     heatmap = sns.heatmap(train_corr, annot=True, fmt=".2f", linewidths=.5, ax=axis)
     figure = heatmap.get_figure()
@@ -88,6 +93,7 @@ if __name__ == '__main__':
     # 2.2 Set Features
     model = MLPRegressor(hidden_layer_sizes=(8, 16, 8), max_iter=256)
     # model = linear_model.LinearRegression()
+    # compare different feature selection methods
     features = [
         max_relevance_min_redundancy_filter(training_set.copy(), training_target.copy(), n_features),
         forward_search(training_set.copy(), training_target.copy(), n_features, model=model),
@@ -96,25 +102,9 @@ if __name__ == '__main__':
             training_set.copy(), training_target.copy(), test_set.copy(), test_target.copy(), n_features, decision_tree_depth=20
         )
     ]
-    # exit(0)
-
-    # 3.2 Cross validation
-    # 3.2.1 Test Features sets
-    # scores = []
-    # # print('Cross validation Score')
-    # for feature_set in features:
-    #     scores.append(
-    #         cross_val_score(model, training_set[feature_set], training_target, cv=8, scoring=scoring.rmse_score).mean()
-    #     )
-    #     # print(scores[-1])
-    #
-    # best_score = min(scores)
-    # best_index = scores.index(best_score)
-    # print(best_index)
 
     # 3.2.2 Test Features of best set
     selected_features = []
-    # transform above code into loop
     # model = MLPRegressor(hidden_layer_sizes=(8, 16, 8), max_iter=256)
     model = linear_model.LinearRegression()
     for feature_set in features:

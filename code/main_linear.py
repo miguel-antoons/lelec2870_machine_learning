@@ -28,6 +28,7 @@ if __name__ == '__main__':
      training_target,
      test_target) = utils.split_train_validation_test(cleaned_set, TEST_RATIO, image_path=staging_path + image_file)
 
+    # get all the features that are important for prediction
     model = linear_model.LinearRegression()
     selected_features = utils.return_best_features(training_set, training_target, test_set, test_target, model)
 

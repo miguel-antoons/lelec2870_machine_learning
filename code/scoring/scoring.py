@@ -6,6 +6,7 @@ def rmse(predict, target):
 
 
 def rmse_score(model, x, y):
+    # this function is used as scoring function in the GridSearchCV
     y_pred = model.predict(x)
     return rmse(y_pred, y)
 
