@@ -81,13 +81,12 @@ if __name__ == '__main__':
     # 0. Define Inputs and outputs
     # 0.1 Inputs
     IpPath = "../../data/"
-    Fl1_nm = "Xtab1.csv"
-    Fl2_nm = "Y1.csv"
-    Fl3_nm = "Ximg1.csv"
+    Fl1_nm = "Xtab2.csv"
+    # Fl2_nm = "Y1.csv"
 
     # 0.1 Output
     OpPath = "../../data/staging/"
-    OpFl1_nm = "Xtab1_Y1_cleaned.csv"
+    OpFl1_nm = "Xtab2_cleaned.csv"
 
     # create opPath if not exists
     if not os.path.exists(OpPath):
@@ -100,8 +99,8 @@ if __name__ == '__main__':
 
     # Import Files
     Data_Set = pd.read_csv(IpPath + Fl1_nm, sep=",", header=0)
-    target = pd.read_csv(IpPath + Fl2_nm, sep=",", header=None)
-    Data_Set['target'] = target
+    # target = pd.read_csv(IpPath + Fl2_nm, sep=",", header=None)
+    # Data_Set['target'] = target
     Data_Set = Data_Set.dropna()
 
     # 1.1.1.2 Function Application

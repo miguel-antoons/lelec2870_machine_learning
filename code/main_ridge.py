@@ -50,3 +50,26 @@ if __name__ == '__main__':
     # model = KernelRidge(**{'alpha': 20, 'coef0': 100, 'degree': 4, 'gamma': 0.001, 'kernel': 'poly'})
 
     scoring.evaluate_feature_selection(training_set, test_set, training_target, test_target, model, selected_features)
+
+    predict = True
+    # predict = False
+    if predict:
+        prediction_file = "Xtab2_cleaned.csv"
+        cleaned_train = pd.read_csv(staging_path + data_file, sep=",", header=0)
+        cleaned_predict = pd.read_csv(staging_path + prediction_file, sep=",", header=0)
+
+        x_train, y_train, x_prediction = utils.prepare_data(cleaned_train, cleaned_predict)
+
+        selected_features = ['BloodPr_Std', 'Weight_Std', 'h5_std', 'Cholesterol_Std', 'h7_std',
+                             'physicalActivity_num']
+        model = KernelRidge(**{'alpha': 20, 'coef0': 100, 'degree': 4, 'gamma': 0.001, 'kernel': 'poly'})
+
+        model.fit(x_train[selected_features], y_train.values.ravel())
+
+        y_prediction = model.predict(x_prediction[selected_features])
+
+        print(y_prediction)
+        # write y_prediction to csv file
+        y_prediction = pd.DataFrame(y_prediction)
+        y_prediction.to_csv("../data/staging/Y2_pred.csv", index=False, header=False)
+        print(len(y_prediction))

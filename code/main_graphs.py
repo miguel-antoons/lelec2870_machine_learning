@@ -21,9 +21,9 @@ if __name__ == '__main__':
     # Constants
     TEST_RATIO = 0.1
 
-    y1_data = [0.046, 0.044, 0.053, 0.046]
-    y2_data = [0.056, 0.054, 0.057, 0.054]
-    y3_data = [0.053, 0.049, 0.055, 0.050]
+    y1_data = [0.049, 0.045, 0.054, 0.047]
+    y2_data = [0.058, 0.056, 0.057, 0.055]
+    y3_data = [0.057, 0.054, 0.055, 0.049]
 
     bar_width = 0.2
     br1 = np.arange(len(y1_data))
@@ -35,9 +35,11 @@ if __name__ == '__main__':
     _, axis = plt.subplots(figsize=(14, 12))
     axis.bar(br1, y1_data, width=0.2, label="Test set ratio = 0.10")
     axis.bar(br2, y2_data, width=0.2, label="Test set ratio = 0.15")
-    axis.bar(br3, y3_data, width=0.2, label="Test set ratio = 0.20")
+    axis.bar(br3, y3_data, width=0.2, label="Test set ratio y_prediction= 0.20")
     axis.set_xticks([r + bar_width + 0.02 for r in range(len(y1_data))], x_labels)
     figure = axis.get_figure()
+    # set y axis label
+    axis.set_ylabel("RMSE")
     axis.legend()
     # increase font size
     for item in ([axis.title, axis.xaxis.label, axis.yaxis.label] +
@@ -69,13 +71,14 @@ if __name__ == '__main__':
 
     # print correlation with target
     # print(training_set.corrwith(training_target))
-
+    # exit(0)
     train_corr = training_set.corr()
     # position the heatmp in the center of the graph
     _, axis = plt.subplots(figsize=(14, 12))
     heatmap = sns.heatmap(train_corr, annot=True, fmt=".2f", linewidths=.5, ax=axis)
     figure = heatmap.get_figure()
     figure.savefig("../graphs/heatmap.png", bbox_inches='tight', dpi=300)
+    # exit(0)
 
     # selected_features = utils.return_best_features(training_set, training_target, test_set, test_target)
 
@@ -93,6 +96,7 @@ if __name__ == '__main__':
             training_set.copy(), training_target.copy(), test_set.copy(), test_target.copy(), n_features, decision_tree_depth=20
         )
     ]
+    # exit(0)
 
     # 3.2 Cross validation
     # 3.2.1 Test Features sets

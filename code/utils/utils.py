@@ -67,6 +67,61 @@ def split_train_validation_test(data, test_ratio, image_path=None):
     return x_train, x_test, y_train, y_test
 
 
+def prepare_data(train_data, prediction_data):
+    train_img_path = "../data/staging/MyXimg1.csv"
+    prediction_img_path = "../data/staging/MyXimg2.csv"
+
+    x_train = train_data.drop("target", axis=1)
+    y_train = train_data["target"].copy()
+
+    x_prediction = prediction_data
+
+    image_features = pd.read_csv(train_img_path, sep=",", header=0)
+    # add image features having the same image_filename as the training data
+    x_train = x_train.merge(image_features, on="img_filename", how="left")
+
+    image_features = pd.read_csv(prediction_img_path, sep=",", header=0)
+    # add image features having the same image_filename as the training data
+    x_prediction = x_prediction.merge(image_features, on="img_filename", how="left")
+
+    x_train['Age_Std'] = mean_norm(x_train['age'])
+    x_train['BloodPr_Std'] = mean_norm(x_train['blood pressure'])
+    x_train['Cholesterol_Std'] = mean_norm(x_train['cholesterol'])
+    x_train['Hemoglobin_Std'] = mean_norm(x_train['hemoglobin'])
+    x_train['Temperature_Std'] = mean_norm(x_train['temperature'])
+    x_train['Testosterone_Std'] = mean_norm(x_train['testosterone'])
+    x_train['Weight_Std'] = mean_norm(x_train['weight'])
+    x_train['h1_std'] = mean_norm(x_train['h1'])
+    x_train['h2_std'] = mean_norm(x_train['h2'])
+    x_train['h3_std'] = mean_norm(x_train['h3'])
+    x_train['h4_std'] = mean_norm(x_train['h4'])
+    x_train['h5_std'] = mean_norm(x_train['h5'])
+    x_train['h6_std'] = mean_norm(x_train['h6'])
+    x_train['h7_std'] = mean_norm(x_train['h7'])
+    x_train['h8_std'] = mean_norm(x_train['h8'])
+
+    x_prediction['Age_Std'] = mean_norm(x_prediction['age'], x_train['age'])
+    x_prediction['BloodPr_Std'] = mean_norm(x_prediction['blood pressure'], x_train['blood pressure'])
+    x_prediction['Cholesterol_Std'] = mean_norm(x_prediction['cholesterol'], x_train['cholesterol'])
+    x_prediction['Hemoglobin_Std'] = mean_norm(x_prediction['hemoglobin'], x_train['hemoglobin'])
+    x_prediction['Temperature_Std'] = mean_norm(x_prediction['temperature'], x_train['temperature'])
+    x_prediction['Testosterone_Std'] = mean_norm(x_prediction['testosterone'], x_train['testosterone'])
+    x_prediction['Weight_Std'] = mean_norm(x_prediction['weight'], x_train['weight'])
+    x_prediction['h1_std'] = mean_norm(x_prediction['h1'], x_train['h1'])
+    x_prediction['h2_std'] = mean_norm(x_prediction['h2'], x_train['h2'])
+    x_prediction['h3_std'] = mean_norm(x_prediction['h3'], x_train['h3'])
+    x_prediction['h4_std'] = mean_norm(x_prediction['h4'], x_train['h4'])
+    x_prediction['h5_std'] = mean_norm(x_prediction['h5'], x_train['h5'])
+    x_prediction['h6_std'] = mean_norm(x_prediction['h6'], x_train['h6'])
+    x_prediction['h7_std'] = mean_norm(x_prediction['h7'], x_train['h7'])
+    x_prediction['h8_std'] = mean_norm(x_prediction['h8'], x_train['h8'])
+
+    x_train = remove_unused_fields(x_train)
+    x_prediction = remove_unused_fields(x_prediction)
+
+    return x_train, y_train, x_prediction
+
+
 def remove_unused_fields(data):
     """
     Remove the fields that are not used in the model
@@ -74,8 +129,8 @@ def remove_unused_fields(data):
     :return: cleaned data
     """
     field_to_keep = [
-        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
-        'smurfberryLiquor_num', 'physicalActivity_num', 'h1_std', 'h3_std', 'h4_std', 'h7_std'
+        'Age_Std', 'BloodPr_Std', 'Cholesterol_Std', 'Hemoglobin_Std', 'Temperature_Std', 'Testosterone_Std', 'Weight_Std',
+        'smurfberryLiquor_num', 'physicalActivity_num', 'h3_std', 'h5_std', 'h7_std', 'h8_std'
     ]
 
     return data[field_to_keep].copy()
